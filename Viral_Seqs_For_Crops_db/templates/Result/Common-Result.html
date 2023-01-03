@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{url_for('static',filename='css/Style.css')}}">
+</head>
+<body>
+<div class="navbar">
+    <a href="/About/">About</a>
+    <a href="/">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">
+          Browse 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/Plants/">Plants</a>
+        <a href="/Viruses">Viruses</a>
+        <a href="/Infects/">Infects</a>
+        <a href="/CDS/">CDS</a>
+        <a href="/motifs_domain/">Motifs & Domain</a>
+      </div>
+    </div>
+    <div class="dropdown" style="float:  right;">
+        <button class="dropbtn">
+          Search Options
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/">Scientific Name</a>
+            <a href="/Home/Virus">Virus Name</a>
+            <a href="/Home/Motif">Motifs</a>
+        </div>
+     </div>
+     <div class="search-container">
+        <form action="/Common Name/Result/" method="GET">
+          <input type=text placeholder="Search.." name="search" >
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+</div>
+<div style="padding-left:16px">
+  <h3 style="text-align:center;">Your Search Results</h3>
+    <table border="1" style="table-layout:fixed;" class="table">
+      <thead>
+        <tr>
+          <th>Common Name</th>
+          <th>Scientific Name</th>
+          <th>Virus Name</th>
+          <th>Virus Sequence</th>
+          <th>CDS Start</th>
+          <th>CDS Stop</th>
+          <th>CDS translatedseq</th>
+          <th>Motif Name</th>
+          <th>Motif Start</th>
+          <th>Motif Stop</th>
+          <th>Accession No.</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for Result in Results %}
+        <tr>
+          <td>{{Result.commonname}}</td>
+          <td>{{Result.scientificname}}</td>
+          <td>{{Result.virusname}}</td>
+          <td style="width:100px;"><div style="overflow-x:scroll;width:100%">{{Result.sequence}}</div></td>
+          <td>{{Result.cdsstart}}</td>
+          <td>{{Result.cdsstop}}</td>
+          <td style="width:100px;"><div style="overflow-x:scroll;width:100%">{{Result.cdstranslatedseq}}</div></td>
+          <td>{{Result.motifname}}</td>
+          <td>{{Result.motifstart}}</td>
+          <td>{{Result.motifstop}}</td>
+          <td>{{Result.accessionno}}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

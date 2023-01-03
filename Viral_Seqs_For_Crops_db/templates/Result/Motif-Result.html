@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{url_for('static',filename='css/Style.css')}}">
+</head>
+<body>
+<div class="navbar">
+    <a href="/About/">About</a>
+    <a href="/">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">
+          Browse 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/Plants/">Plants</a>
+        <a href="/Viruses">Viruses</a>
+        <a href="/Infects/">Infects</a>
+        <a href="/CDS/">CDS</a>
+        <a href="/motifs_domain/">Motifs & Domain</a>
+      </div>
+    </div>
+    <div class="dropdown" style="float:  right;">
+        <button class="dropbtn">
+          Search Options
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/">Scientific Name</a>
+          <a href="/Home/Common">Common Name</a>
+          <a href="/Home/Virus">Virus Name</a>
+      </div>
+    </div>
+    <div class="search-container">
+    <form action="/Motif/Result/" method="GET">
+      <input type=text placeholder="Search.." name="search" >
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    </div>
+</div>
+<div style="padding-left:16px">
+  <h3 style="text-align:center;">Your Search Results<search> </h3>
+    <table border="1" style="table-layout:fixed;" class="table">
+      <thead>
+        <tr>
+          <th>Motif Name</th>
+          <th>Accession No.</th>
+          <th>Virus Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for Result in Results %}
+        <tr>
+          <td>{{Result.motifname}}</td>
+          <td>{{Result.accessionno}}</td>
+          <td>{{Result.name}}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{url_for('static',filename='css/Style.css')}}">
+</head>
+<body>
+<div class="navbar">
+    <a href="/About/">About</a>
+    <a href="/">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">
+          Browse 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/Plants/">Plants</a>
+        <a href="/Viruses">Viruses</a>
+        <a href="/Infects/">Infects</a>
+        <a href="/CDS/">CDS</a>
+        <a href="/motifs_domain/">Motifs & Domain</a>
+      </div>
+    </div>
+    <div class="dropdown" style="float:  right;">
+        <button class="dropbtn">
+          Search Options
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/Home/Common">Common Name</a>
+          <a href="/Home/Virus">Virus Name</a>
+          <a href="/Home/Motif">Motifs</a>
+        </div>
+     </div>
+    <div class="search-container">
+      <form action="/Scientific Name/Result/" method="GET">
+        <input type=text placeholder="Search.." name="search" >
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    </div>
+  </div>
+  <div style="text-align:center;">
+    <h1>Virus Protein Interactions in Plants Database - About</h1>
+      <h3>What is this database?</h3>
+        <p>In short, this database is about finding viral proteins for viruses that specifically infect certain plant species.</p>
+      <h3>Why is this database useful?</h3>
+        <p>This information can help us understand and study the viral proteins and potentially develop pesticides which can protect agricultural crops from viral diseases.</p>
+      <h3>How was the data collected?</h3>
+        <p>First ‘Popular’ plants that are agriculturally grown around the world was taken from Food and agricultural organization (FAO)
+        Then the data was organized based on the amount of yield. Only the top 10 highly produced plants were selected.
+        Then the Genus name was determined from the common name using the R-package, Taxize </p>
+        <p>Once the Genuses were determined then using beautiful soup the data for species and their suseptibility to various viruses was scraped from plant viruses online website.</p>
+        <p>With the use of Biopython the viruses were then searched and a corresponding ID was obtained for the viruses. 
+        Using the obtained ID the NCBI (National Center For Biotechnology information) database was searched for viral sequences and any possible CDS's (Coding regions) the virus may have.</p>
+        <p>After obtaining the CDS's (Coding regions) for the viruses the data was then sent to  CDD's (Conserved Domains Database) batch search tool where the expect value threshold was set to 0.01. 
+        The CDD's batch search tool then gave the data on domains and motifs for the CDS's.(Coding regions)</p>
+        <p>This, and all other data was then placed in ElephantSQL (Postgresql) and the database was created</p>
+      <h3>Future Updates and changes</h3>
+        <p>First: Since the database currently relies on the data obtained by plants and viruses online website, 
+        to increase accuracy and efficency of this database the viral suseptibility data will be obtained by this database itself.</p>
+        <p>Second: A better more interactive GUI. So that the data isn't presented only in tables</p>
+        <p>Third: Addition of more plant genuses</p>
+      <h3>Resources Used</h3>
+        <p><a href="http://www.fao.org/faostat/en/#data/QC" target="_blank">Food and Agricultural Organization</a></p>
+        <p><a href="http://sdb.im.ac.cn/vide/refs.htm" target="_blank">Plant Virus Online</a></p>
+        <p><a href="https://www.ncbi.nlm.nih.gov/" target="_blank">NCBI (National Center For Biotechnology information)</a></p>
+        <p><a href="https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml" target="_blank">CDD (Conserved Domains Database)</a></p>
+      <h3>Software Used</h3>
+        <p><a href="https://www.r-project.org/" target="_blank">R</a></p>
+        <p><a href="https://cran.r-project.org/web/packages/taxize/taxize.pdf" target="_blank">R-Taxize</a></p>
+        <p><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/" target="_blank">BeautifulSoup</a></p>
+        <p><a href="https://www.python.org/" target="_blank">Python</a></p>
+        <p><a href="https://biopython.org/" target="_blank">Biopython</a></p>
+        <p><a href="https://www.elephantsql.com/" target="_blank">ElephantSQL (Postgresql)</a></p>
+        <p><a href="http://flask.pocoo.org/" target="_blank">Flask</a></p>
+        <p><a href="https://matplotlib.org/" target="_blank">Matplotlib</a> and <a href="https://pandas.pydata.org/" target="_blank">Pandas</a>: For the graph</p>
+        <p>HTML and CSS</p>
+      <h3>Refrences</h3>
+        <p><a href="https://www.w3schools.com/" target="_blank">W3-schools</a>: Help with HTML and CSS</p>
+    </div>
+</body>
+</html>

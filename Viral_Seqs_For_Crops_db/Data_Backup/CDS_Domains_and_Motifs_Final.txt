@@ -1,0 +1,717 @@
+Vpipmotdom_01	VpipCDS_01	260	693	9.84E-104	340.818	cl20022	Peptidase C6 superfamily
+Vpipmotdom_02	VpipCDS_01	2254	2715	2.34E-98	326.635	cl02808	RT like superfamily
+Vpipmotdom_03	VpipCDS_01	2806	3038	1.58E-91	297.593	cl02961	Poty coat superfamily
+Vpipmotdom_04	VpipCDS_01	1495	1768	5.16E-68	231.607	cl07169	Poty PP superfamily
+Vpipmotdom_05	VpipCDS_01	1986	2219	3.71E-57	199.161	cl24133	Peptidase C4 superfamily
+Vpipmotdom_06	VpipCDS_01	2	232	2.52E-54	191.006	pfam01577	Peptidase S30
+Vpipmotdom_07	VpipCDS_01	708	1160	1.11E-53	196.399	cl16319	Potyvirid-P3 superfamily
+Vpipmotdom_08	VpipCDS_01	1198	1329	4.91E-12	66.0336	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_09	VpipCDS_01	1186	1334	2.03E-24	103.341	smart00487	DEXDc
+Vpipmotdom_10	VpipCDS_01	1372	1468	3.04E-09	55.6809	smart00490	HELICc
+Vpipmotdom_11	VpipCDS_03	45	325	2.26E-78	261.839	pfam01660	Vmethyltransf
+Vpipmotdom_12	VpipCDS_03	722	817	2.55E-16	76.3005	cl05113	Peptidase C21 superfamily
+Vpipmotdom_13	VpipCDS_03	1450	1639	3.45E-10	64.2033	cl03049	RdRP 2 superfamily
+Vpipmotdom_14	VpipCDS_03	1840	1995	4.22E-10	60.6161	cl03052	Tymo coat superfamily
+Vpipmotdom_15	VpipCDS_03	1090	1140	0.00610147	37.156	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_16	VpipCDS_03	908	1138	6.33E-42	154.07	pfam01443	Viral helicase1
+Vpipmotdom_17	VpipCDS_04	2	417	0.00019676	43.7737	PHA03247	PHA03247
+Vpipmotdom_18	VpipCDS_05	85	194	0.00705485	36.7863	cl26680	SidE superfamily
+Vpipmotdom_19	VpipCDS_06	1	110	2.97E-71	207.393	cl05711	RTBV P12 superfamily
+Vpipmotdom_20	VpipCDS_07	1240	1389	4.84E-44	157.757	cd01647	RT LTR
+Vpipmotdom_21	VpipCDS_07	1488	1614	2.58E-16	76.3773	cl14782	RNase H like superfamily
+Vpipmotdom_22	VpipCDS_07	976	1073	2.38E-05	44.2496	cd00303	retropepsin like
+Vpipmotdom_23	VpipCDS_07	1248	1392	1.97E-35	133.572	pfam00078	RVT 1
+Vpipmotdom_24	VpipCDS_08	1	389	0	823.578	cl05630	RTBV P46 superfamily
+Vpipmotdom_25	VpipCDS_12	9	168	2.78E-21	85.1108	cl20278	Tenui NCP superfamily
+Vpipmotdom_26	VpipCDS_13	67	271	3.12E-24	99.4412	cl03993	Tenui NS4 superfamily
+Vpipmotdom_27	VpipCDS_14	18	183	1.52E-64	196.31	pfam00721	TMV coat
+Vpipmotdom_28	VpipCDS_15	266	359	7.12E-06	46.0084	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_29	VpipCDS_15	266	489	4.27E-48	166.011	pfam01443	Viral helicase1
+Vpipmotdom_30	VpipCDS_15	243	284	0.00354443	38.2812	pfam13191	AAA 16
+Vpipmotdom_31	VpipCDS_16	8	97	5.98E-28	98.2658	pfam01307	Plant vir prot
+Vpipmotdom_32	VpipCDS_17	3	124	5.84E-61	184.09	cl04568	Viral Beta CD superfamily
+Vpipmotdom_33	VpipCDS_18	493	857	0	534.753	cl03497	Como LCP superfamily
+Vpipmotdom_34	VpipCDS_18	867	1047	6.06E-83	267.029	cl03498	Como SCP superfamily
+Vpipmotdom_35	VpipCDS_19	249	728	0	643.897	pfam00998	RdRP 3
+Vpipmotdom_36	VpipCDS_20	1	67	4.72E-05	36.8152	cl05068	Tombus movement superfamily
+Vpipmotdom_37	VpipCDS_22	50	238	1.72E-31	117.56	cl29941	Viral coat superfamily
+Vpipmotdom_38	VpipCDS_24	334	766	1.81E-113	368.938	cl20022	Peptidase C6 superfamily
+Vpipmotdom_39	VpipCDS_24	2310	2770	1.15E-100	333.184	cl02808	RT like superfamily
+Vpipmotdom_40	VpipCDS_24	2833	3062	5.65E-97	313.387	cl02961	Poty coat superfamily
+Vpipmotdom_41	VpipCDS_24	1550	1822	1.03E-67	230.837	cl07169	Poty PP superfamily
+Vpipmotdom_42	VpipCDS_24	69	308	2.23E-61	211.037	pfam01577	Peptidase S30
+Vpipmotdom_43	VpipCDS_24	779	1216	2.17E-55	201.407	cl16319	Potyvirid-P3 superfamily
+Vpipmotdom_44	VpipCDS_24	2042	2274	1.70E-53	188.376	cl24133	Peptidase C4 superfamily
+Vpipmotdom_45	VpipCDS_24	1253	1390	1.66E-10	61.7964	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_46	VpipCDS_24	1461	1531	4.75E-06	49.0688	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_47	VpipCDS_24	1246	1390	1.38E-22	97.9478	smart00487	DEXDc
+Vpipmotdom_48	VpipCDS_24	1408	1523	2.31E-14	71.4683	pfam00271	Helicase C
+Vpipmotdom_49	VpipCDS_34	185	1018	4.08E-134	447.152	cl15638	Mononeg RNA pol superfamily
+Vpipmotdom_50	VpipCDS_34	1147	1985	6.27E-73	263.586	cl27811	G-7-MTase superfamily
+Vpipmotdom_51	VpipCDS_35	18	250	1.53E-95	279.956	pfam00844	Gemini coat
+Vpipmotdom_52	VpipCDS_36	2	121	2.59E-52	160.829	cl03201	Gemini AL3 superfamily
+Vpipmotdom_53	VpipCDS_37	1	127	3.45E-41	132.801	cl03213	Gemini AL2 superfamily
+Vpipmotdom_54	VpipCDS_38	8	120	1.47E-46	154.212	pfam00799	Gemini AL1
+Vpipmotdom_55	VpipCDS_38	123	229	3.28E-43	145.055	cl07042	Gemini AL1 M superfamily
+Vpipmotdom_56	VpipCDS_42	10	197	8.94E-62	190.157	cl05455	Tricho coat superfamily
+Vpipmotdom_57	VpipCDS_44	1	200	4.50E-140	390.617	cl03251	Tospo nucleocap superfamily
+Vpipmotdom_58	VpipCDS_45	1317	1470	1.38E-32	124.364	pfam03688	Nepo coat C
+Vpipmotdom_59	VpipCDS_45	1158	1303	2.93E-23	97.8371	cl04041	Nepo coat superfamily
+Vpipmotdom_60	VpipCDS_45	969	1060	1.66E-18	81.5386	cl04212	Nepo coat N superfamily
+Vpipmotdom_61	VpipCDS_49	6	360	7.26E-50	175.879	cd10170	HSP70 NBD
+Vpipmotdom_62	VpipCDS_51	7	515	0	573.52	pfam03225	Viral Hsp90
+Vpipmotdom_63	VpipCDS_53	64	250	2.72E-32	116.3	cl03354	Closter coat superfamily
+Vpipmotdom_64	VpipCDS_56	2	146	3.17E-28	102.321	cl20208	TMV coat superfamily
+Vpipmotdom_65	VpipCDS_57	1	343	9.41E-30	120.281	pfam03251	Tymo 45kd 70kd
+Vpipmotdom_66	VpipCDS_58	38	323	9.07E-74	248.357	pfam01660	Vmethyltransf
+Vpipmotdom_67	VpipCDS_58	676	773	1.46E-15	73.9893	cl05113	Peptidase C21 superfamily
+Vpipmotdom_68	VpipCDS_58	1441	1671	1.67E-10	64.9737	cl03049	RdRP 2 superfamily
+Vpipmotdom_69	VpipCDS_58	872	971	9.49E-05	44.4676	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_70	VpipCDS_58	1057	1101	0.000156437	42.0392	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_71	VpipCDS_58	871	1103	5.02E-56	194.131	pfam01443	Viral helicase1
+Vpipmotdom_72	VpipCDS_59	22	174	1.42E-21	86.8097	cl03052	Tymo coat superfamily
+Vpipmotdom_73	VpipCDS_60	299	740	0	700.21	pfam00851	Peptidase C6
+Vpipmotdom_74	VpipCDS_60	771	1208	0	629.363	pfam13608	Potyvirid-P3
+Vpipmotdom_75	VpipCDS_60	2293	2761	2.49E-149	473.397	pfam00680	RdRP 1
+Vpipmotdom_76	VpipCDS_60	1542	1814	4.26E-130	409.569	pfam08440	Poty PP
+Vpipmotdom_77	VpipCDS_60	2827	3059	1.25E-128	403.909	pfam00767	Poty coat
+Vpipmotdom_78	VpipCDS_60	41	283	8.59E-71	238.001	pfam01577	Peptidase S30
+Vpipmotdom_79	VpipCDS_60	2030	2263	5.36E-48	172.583	cl24133	Peptidase C4 superfamily
+Vpipmotdom_80	VpipCDS_60	1237	1362	9.24E-09	56.2577	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_81	VpipCDS_60	1458	1515	0.000422593	43.0188	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_82	VpipCDS_60	1214	1382	2.05E-22	97.5626	smart00487	DEXDc
+Vpipmotdom_83	VpipCDS_60	1402	1517	5.12E-13	67.6163	pfam00271	Helicase C
+Vpipmotdom_84	VpipCDS_61	39	327	3.41E-87	286.107	pfam01660	Vmethyltransf
+Vpipmotdom_85	VpipCDS_61	1109	1363	1.31E-10	64.9737	cl03049	RdRP 2 superfamily
+Vpipmotdom_86	VpipCDS_61	707	941	3.58E-57	197.213	pfam01443	Viral helicase1
+Vpipmotdom_87	VpipCDS_62	25	133	0.00157579	36.9081	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_88	VpipCDS_62	3	46	0.000273774	40.2072	pfam13191	AAA 16
+Vpipmotdom_89	VpipCDS_63	5	106	1.72E-14	63.983	cl03157	Plant vir prot superfamily
+Vpipmotdom_90	VpipCDS_64	19	76	5.13E-09	47.2762	pfam02495	7kD coat
+Vpipmotdom_91	VpipCDS_65	51	188	3.42E-42	139.868	cl02836	Flexi CP superfamily
+Vpipmotdom_92	VpipCDS_67	461	829	7.81E-69	237.358	pfam02123	RdRP 4
+Vpipmotdom_93	VpipCDS_67	146	290	8.80E-07	50.4548	cl09540	Peptidase S39 superfamily
+Vpipmotdom_94	VpipCDS_67	152	287	1.64E-12	65.4696	pfam13365	Trypsin 2
+Vpipmotdom_95	VpipCDS_68	146	290	1.64E-06	48.914	cl09540	Peptidase S39 superfamily
+Vpipmotdom_96	VpipCDS_68	152	287	1.24E-12	65.0844	pfam13365	Trypsin 2
+Vpipmotdom_97	VpipCDS_69	41	245	2.66E-43	146.835	cl29941	Viral coat superfamily
+Vpipmotdom_98	VpipCDS_70	8	256	6.36E-90	265.704	pfam00844	Gemini coat
+Vpipmotdom_99	VpipCDS_71	13	237	7.78E-164	453.72	cl02984	Gemini BL1 superfamily
+Vpipmotdom_100	VpipCDS_72	1167	1614	0	568.044	pfam00978	RdRP 2
+Vpipmotdom_101	VpipCDS_72	50	436	4.73E-62	214.46	pfam01660	Vmethyltransf
+Vpipmotdom_102	VpipCDS_72	829	1084	6.52E-61	208.383	pfam01443	Viral helicase1
+Vpipmotdom_103	VpipCDS_73	50	436	4.32E-62	213.689	pfam01660	Vmethyltransf
+Vpipmotdom_104	VpipCDS_73	829	1084	7.88E-61	207.228	pfam01443	Viral helicase1
+Vpipmotdom_105	VpipCDS_74	7	179	2.27E-37	130.211	cl03100	MP superfamily
+Vpipmotdom_106	VpipCDS_75	18	148	3.90E-18	76.1277	cl20208	TMV coat superfamily
+Vpipmotdom_107	VpipCDS_76	1	425	1.57E-32	131.067	pfam03251	Tymo 45kd 70kd
+Vpipmotdom_108	VpipCDS_77	38	357	6.97E-77	257.217	pfam01660	Vmethyltransf
+Vpipmotdom_109	VpipCDS_77	772	872	1.09E-22	94.4049	cl05113	Peptidase C21 superfamily
+Vpipmotdom_110	VpipCDS_77	1466	1715	3.92E-13	73.4481	cl03049	RdRP 2 superfamily
+Vpipmotdom_111	VpipCDS_77	961	1089	0.00813286	38.6663	cd00009	AAA
+Vpipmotdom_112	VpipCDS_77	962	1193	1.17E-59	204.917	pfam01443	Viral helicase1
+Vpipmotdom_113	VpipCDS_78	9	178	8.36E-18	76.4093	cl03052	Tymo coat superfamily
+Vpipmotdom_114	VpipCDS_81	2	219	5.43E-81	241.527	pfam04662	Luteo PO
+Vpipmotdom_115	VpipCDS_82	207	407	1.83E-105	317.398	pfam02122	Peptidase S39
+Vpipmotdom_116	VpipCDS_82	399	507	0.00342101	40.2172	cl30821	PLN02829 superfamily
+Vpipmotdom_117	VpipCDS_83	163	557	8.27E-108	332.503	pfam02123	RdRP 4
+Vpipmotdom_118	VpipCDS_84	231	698	0	802.201	pfam01690	PLRV ORF5
+Vpipmotdom_119	VpipCDS_84	70	207	1.18E-75	239.456	pfam00894	Luteo coat
+Vpipmotdom_120	VpipCDS_85	70	207	1.20E-80	236.375	pfam00894	Luteo coat
+Vpipmotdom_121	VpipCDS_86	54	155	2.34E-42	136.203	cl03297	Luteo Vpg superfamily
+Vpipmotdom_122	VpipCDS_87	746	911	1.80E-53	183.737	cl04041	Nepo coat superfamily
+Vpipmotdom_123	VpipCDS_87	917	1078	3.47E-38	140.157	pfam03688	Nepo coat C
+Vpipmotdom_124	VpipCDS_87	579	670	1.09E-23	95.791	pfam03689	Nepo coat N
+Vpipmotdom_125	VpipCDS_88	1	52	1.51E-18	78.4061	cl02808	RT like superfamily
+Vpipmotdom_126	VpipCDS_89	337	507	1.67E-69	223.412	pfam03391	Nepo coat
+Vpipmotdom_127	VpipCDS_89	514	672	1.33E-65	212.96	pfam03688	Nepo coat C
+Vpipmotdom_128	VpipCDS_89	173	263	2.96E-36	130.844	pfam03689	Nepo coat N
+Vpipmotdom_129	VpipCDS_91	12	218	1.42E-85	253.083	pfam04662	Luteo PO
+Vpipmotdom_130	VpipCDS_92	576	969	1.26E-105	337.51	pfam02123	RdRP 4
+Vpipmotdom_131	VpipCDS_92	206	408	4.90E-100	312.776	pfam02122	Peptidase S39
+Vpipmotdom_132	VpipCDS_93	206	408	9.40E-101	304.301	pfam02122	Peptidase S39
+Vpipmotdom_133	VpipCDS_95	227	498	1.03E-97	309.916	cl12253	PLRV ORF5 superfamily
+Vpipmotdom_134	VpipCDS_95	65	201	2.17E-60	198.24	cl03007	Luteo coat superfamily
+Vpipmotdom_135	VpipCDS_96	65	201	6.22E-62	188.995	cl03007	Luteo coat superfamily
+Vpipmotdom_136	VpipCDS_97	45	121	6.84E-21	82.2749	cl03297	Luteo Vpg superfamily
+Vpipmotdom_137	VpipCDS_99	26	166	3.64E-64	194.952	pfam00286	Flexi CP
+Vpipmotdom_138	VpipCDS_99	1	17	9.47E-06	41.4373	cl07103	Flexi CP N superfamily
+Vpipmotdom_139	VpipCDS_100	6	91	6.34E-27	94.7561	cl03285	Carla C4 superfamily
+Vpipmotdom_140	VpipCDS_101	980	1132	4.45E-29	113.964	cl04211	Nepo coat C superfamily
+Vpipmotdom_141	VpipCDS_101	804	967	5.25E-17	79.3475	cl04041	Nepo coat superfamily
+Vpipmotdom_142	VpipCDS_101	638	728	3.06E-11	60.3526	cl04212	Nepo coat N superfamily
+Vpipmotdom_143	VpipCDS_102	421	856	1.00E-125	404.376	cl20022	Peptidase C6 superfamily
+Vpipmotdom_144	VpipCDS_102	2419	2880	1.83E-103	341.658	cl02808	RT like superfamily
+Vpipmotdom_145	VpipCDS_102	2972	3204	3.27E-100	322.631	cl02961	Poty coat superfamily
+Vpipmotdom_146	VpipCDS_102	1651	1925	2.08E-72	244.319	cl07169	Poty PP superfamily
+Vpipmotdom_147	VpipCDS_102	143	396	7.16E-69	232.608	pfam01577	Peptidase S30
+Vpipmotdom_148	VpipCDS_102	878	1316	3.92E-55	200.636	cl16319	Potyvirid-P3 superfamily
+Vpipmotdom_149	VpipCDS_102	2149	2384	3.22E-46	167.575	cl24133	Peptidase C4 superfamily
+Vpipmotdom_150	VpipCDS_102	1354	1474	3.26E-13	69.5004	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_151	VpipCDS_102	1348	1496	1.32E-20	92.1698	smart00487	DEXDc
+Vpipmotdom_152	VpipCDS_102	1512	1626	1.07E-08	55.2899	pfam00271	Helicase C
+Vpipmotdom_153	VpipCDS_104	2630	2860	3.33E-139	433.915	cl13774	Peptidase C3G superfamily
+Vpipmotdom_154	VpipCDS_104	657	851	7.36E-114	359.655	pfam12264	Waikav capsid 1
+Vpipmotdom_155	VpipCDS_104	2907	3415	4.51E-86	291.197	cl02808	RT like superfamily
+Vpipmotdom_156	VpipCDS_104	1773	1879	4.65E-37	136.212	pfam00910	RNA helicase
+Vpipmotdom_157	VpipCDS_104	869	1027	6.18E-13	69.7324	cd00205	rhv like
+Vpipmotdom_158	VpipCDS_105	21	149	5.46E-09	50.8494	cl13541	Salp15 superfamily
+Vpipmotdom_159	VpipCDS_106	530	901	5.55E-105	335.199	pfam02123	RdRP 4
+Vpipmotdom_160	VpipCDS_106	141	305	0.000116238	44.2916	cl09540	Peptidase S39 superfamily
+Vpipmotdom_161	VpipCDS_107	141	305	0.000360585	41.9804	cl09540	Peptidase S39 superfamily
+Vpipmotdom_162	VpipCDS_108	35	235	5.05E-10	57.0833	cl29941	Viral coat superfamily
+Vpipmotdom_163	VpipCDS_109	64	200	1.45E-59	182.832	cl03007	Luteo coat superfamily
+Vpipmotdom_164	VpipCDS_110	4	246	1.73E-93	276.148	pfam05733	Tenui N
+Vpipmotdom_165	VpipCDS_112	73	305	2.99E-112	324.557	cl02961	Poty coat superfamily
+Vpipmotdom_166	VpipCDS_114	17	390	4.58E-23	102.562	pfam03251	Tymo 45kd 70kd
+Vpipmotdom_167	VpipCDS_115	38	352	7.99E-77	257.217	pfam01660	Vmethyltransf
+Vpipmotdom_168	VpipCDS_115	743	843	2.77E-15	73.2189	cl05113	Peptidase C21 superfamily
+Vpipmotdom_169	VpipCDS_115	1338	1686	2.25E-11	68.0553	cl03049	RdRP 2 superfamily
+Vpipmotdom_170	VpipCDS_115	1119	1165	4.87E-05	43.58	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_171	VpipCDS_115	933	1165	8.33E-55	190.664	pfam01443	Viral helicase1
+Vpipmotdom_172	VpipCDS_116	35	178	1.23E-17	76.0241	cl03052	Tymo coat superfamily
+Vpipmotdom_173	VpipCDS_117	498	934	2.02E-125	403.221	cl20022	Peptidase C6 superfamily
+Vpipmotdom_174	VpipCDS_117	3015	3247	6.69E-104	333.032	cl02961	Poty coat superfamily
+Vpipmotdom_175	VpipCDS_117	2486	2931	3.55E-101	334.725	cl02808	RT like superfamily
+Vpipmotdom_176	VpipCDS_117	1722	2004	2.45E-71	241.237	cl07169	Poty PP superfamily
+Vpipmotdom_177	VpipCDS_117	2221	2453	1.48E-50	180.286	cl24133	Peptidase C4 superfamily
+Vpipmotdom_178	VpipCDS_117	951	1388	1.99E-48	180.991	cl16319	Potyvirid-P3 superfamily
+Vpipmotdom_179	VpipCDS_117	240	475	3.82E-20	92.3951	cl29696	Peptidase S30 superfamily
+Vpipmotdom_180	VpipCDS_117	1425	1545	1.21E-14	73.7376	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_181	VpipCDS_117	1589	1695	1.73E-05	47.256	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_182	VpipCDS_117	1409	1560	1.73E-22	97.9478	smart00487	DEXDc
+Vpipmotdom_183	VpipCDS_117	1586	1697	8.77E-12	64.1495	pfam00271	Helicase C
+Vpipmotdom_184	VpipCDS_117	2257	2388	0.00334315	40.0464	pfam13365	Trypsin 2
+Vpipmotdom_185	VpipCDS_118	1	390	4.38E-24	105.258	pfam03251	Tymo 45kd 70kd
+Vpipmotdom_186	VpipCDS_119	38	340	2.57E-77	258.758	pfam01660	Vmethyltransf
+Vpipmotdom_187	VpipCDS_119	1447	1638	3.98E-16	82.6928	cl03049	RdRP 2 superfamily
+Vpipmotdom_188	VpipCDS_119	677	776	1.08E-15	74.3745	cl05113	Peptidase C21 superfamily
+Vpipmotdom_189	VpipCDS_119	1057	1103	1.62E-06	47.1711	cd18809	SF1 C RecD
+Vpipmotdom_190	VpipCDS_119	870	948	0.000215074	43.2887	cd00009	AAA
+Vpipmotdom_191	VpipCDS_119	871	1103	8.26E-56	193.746	pfam01443	Viral helicase1
+Vpipmotdom_192	VpipCDS_120	21	178	5.47E-25	95.284	cl03052	Tymo coat superfamily
+Vpipmotdom_193	VpipCDS_121	28	195	8.05E-75	224.791	cl02961	Poty coat superfamily
+Vpipmotdom_194	VpipCDS_122	1	118	1.31E-59	183.189	cl02961	Poty coat superfamily
+Vpipmotdom_195	VpipCDS_124	468	842	5.17E-180	528.975	cl03497	Como LCP superfamily
+Vpipmotdom_196	VpipCDS_124	918	1043	2.80E-10	60.5622	cl03498	Como SCP superfamily
+Vpipmotdom_197	VpipCDS_125	1159	1598	0	573.822	pfam00978	RdRP 2
+Vpipmotdom_198	VpipCDS_125	50	435	7.99E-55	193.659	pfam01660	Vmethyltransf
+Vpipmotdom_199	VpipCDS_125	824	1076	3.96E-62	211.85	pfam01443	Viral helicase1
+Vpipmotdom_200	VpipCDS_126	50	435	7.88E-55	192.888	pfam01660	Vmethyltransf
+Vpipmotdom_201	VpipCDS_126	824	1076	9.50E-62	209.924	pfam01443	Viral helicase1
+Vpipmotdom_202	VpipCDS_127	10	177	6.05E-23	92.4619	cl03100	MP superfamily
+Vpipmotdom_203	VpipCDS_128	14	146	4.22E-11	57.6381	cl20208	TMV coat superfamily
+Vpipmotdom_204	VpipCDS_129	526	859	2.85E-33	132.027	pfam01660	Vmethyltransf
+Vpipmotdom_205	VpipCDS_129	376	448	6.36E-09	54.7064	cl05214	Peptidase C42 superfamily
+Vpipmotdom_206	VpipCDS_129	2048	2197	0.000588301	41.8389	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_207	VpipCDS_129	2110	2317	4.71E-33	128.647	pfam01443	Viral helicase1
+Vpipmotdom_208	VpipCDS_130	14	430	1.69E-117	351.562	pfam00978	RdRP 2
+Vpipmotdom_209	VpipCDS_133	4	387	4.87E-52	182.813	cd10170	HSP70 NBD
+Vpipmotdom_210	VpipCDS_134	7	471	2.43E-76	247.641	cl20248	Viral Hsp90 superfamily
+Vpipmotdom_211	VpipCDS_135	37	225	2.12E-46	151.738	cl03354	Closter coat superfamily
+Vpipmotdom_212	VpipCDS_136	20	207	1.50E-23	92.4176	cl03354	Closter coat superfamily
+Vpipmotdom_213	VpipCDS_138	49	160	2.32E-07	47.9232	cl13240	RSS P20 superfamily
+Vpipmotdom_214	VpipCDS_139	253	485	3.10E-118	346.514	cl02961	Poty coat superfamily
+Vpipmotdom_215	VpipCDS_139	1	172	1.45E-36	140.584	cl02808	RT like superfamily
+Vpipmotdom_216	VpipCDS_140	1	53	1.01E-16	74.9393	cl02808	RT like superfamily
+Vpipmotdom_217	VpipCDS_140	152	236	2.86E-08	50.5689	cl14782	RNase H like superfamily
+Vpipmotdom_218	VpipCDS_141	35	174	2.32E-45	147.572	cl02836	Flexi CP superfamily
+Vpipmotdom_219	VpipCDS_148	188	1085	1.56E-146	481.435	cl15638	Mononeg RNA pol superfamily
+Vpipmotdom_220	VpipCDS_148	1188	1950	1.85E-111	377.99	TIGR04198	paramyx RNAcap
+Vpipmotdom_221	VpipCDS_149	313	729	6.46E-161	475.596	pfam00978	RdRP 2
+Vpipmotdom_222	VpipCDS_150	448	816	0	649.158	pfam02247	Como LCP
+Vpipmotdom_223	VpipCDS_150	824	1005	1.30E-108	334.054	pfam02248	Como SCP
+Vpipmotdom_224	VpipCDS_151	101	240	9.84E-56	176.077	cl02836	Flexi CP superfamily
+Vpipmotdom_225	VpipCDS_151	41	92	1.31E-24	93.054	pfam08358	Flexi CP N
+Vpipmotdom_226	VpipCDS_152	483	845	1.18E-134	411.875	cl03497	Como LCP superfamily
+Vpipmotdom_227	VpipCDS_152	855	1032	1.41E-67	224.272	cl03498	Como SCP superfamily
+Vpipmotdom_228	VpipCDS_154	2	143	9.13E-100	289.315	cl12323	Reo P9 superfamily
+Vpipmotdom_229	VpipCDS_156	1	57	1.83E-33	112.519	cl02836	Flexi CP superfamily
+Vpipmotdom_230	VpipCDS_157	1	200	1.47E-44	148.315	cl24133	Peptidase C4 superfamily
+Vpipmotdom_231	VpipCDS_158	321	755	1.03E-129	415.547	cl20022	Peptidase C6 superfamily
+Vpipmotdom_232	VpipCDS_158	2292	2742	4.38E-100	331.643	cl02808	RT like superfamily
+Vpipmotdom_233	VpipCDS_158	2825	3057	7.04E-97	313.001	cl02961	Poty coat superfamily
+Vpipmotdom_234	VpipCDS_158	770	1205	1.16E-65	231.067	cl16319	Potyvirid-P3 superfamily
+Vpipmotdom_235	VpipCDS_158	1539	1812	4.84E-65	223.133	cl07169	Poty PP superfamily
+Vpipmotdom_236	VpipCDS_158	42	297	1.54E-62	214.503	pfam01577	Peptidase S30
+Vpipmotdom_237	VpipCDS_158	2031	2263	1.11E-50	180.286	cl24133	Peptidase C4 superfamily
+Vpipmotdom_238	VpipCDS_158	1226	1374	8.07E-12	65.2632	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_239	VpipCDS_158	1406	1520	4.29E-08	55.232	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_240	VpipCDS_158	1208	1379	1.05E-22	98.333	smart00487	DEXDc
+Vpipmotdom_241	VpipCDS_158	1396	1514	1.92E-14	71.4683	pfam00271	Helicase C
+Vpipmotdom_242	VpipCDS_161	4	92	5.55E-34	112.09	pfam01623	Carla C4
+Vpipmotdom_243	VpipCDS_164	40	235	1.30E-49	163.339	cl03100	MP superfamily
+Vpipmotdom_244	VpipCDS_165	1	161	5.03E-70	208.5	pfam03233	Cauli AT
+Vpipmotdom_245	VpipCDS_166	4	119	1.83E-30	105.093	cl03999	Cauli DNA-bind superfamily
+Vpipmotdom_246	VpipCDS_167	414	430	0.00353135	34.7264	smart00343	ZnF C2HC
+Vpipmotdom_247	VpipCDS_168	28	224	2.66E-68	222.28	cl23521	Peptidase A3 superfamily
+Vpipmotdom_248	VpipCDS_168	273	452	3.52E-63	207.448	cd01647	RT LTR
+Vpipmotdom_249	VpipCDS_168	547	674	1.39E-31	118.749	cd09274	RNase HI RT Ty3
+Vpipmotdom_250	VpipCDS_168	297	452	1.06E-40	146.668	pfam00078	RVT 1
+Vpipmotdom_251	VpipCDS_169	140	181	4.53E-10	54.7213	pfam01693	Cauli VI
+Vpipmotdom_252	VpipCDS_170	39	328	1.24E-90	296.507	pfam01660	Vmethyltransf
+Vpipmotdom_253	VpipCDS_170	585	665	7.39E-08	54.2395	cl21496	2OG-FeII Oxy superfamily
+Vpipmotdom_254	VpipCDS_170	1284	1454	3.79E-05	48.0249	cl03049	RdRP 2 superfamily
+Vpipmotdom_255	VpipCDS_170	852	1086	6.69E-58	199.524	pfam01443	Viral helicase1
+Vpipmotdom_256	VpipCDS_171	25	124	0.00176743	36.9081	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_257	VpipCDS_171	27	223	1.07E-27	105.535	pfam01443	Viral helicase1
+Vpipmotdom_258	VpipCDS_172	5	100	2.87E-25	91.3322	cl03157	Plant vir prot superfamily
+Vpipmotdom_259	VpipCDS_173	31	77	9.63E-07	41.4982	pfam02495	7kD coat
+Vpipmotdom_260	VpipCDS_174	42	181	3.50E-45	147.187	cl02836	Flexi CP superfamily
+Vpipmotdom_261	VpipCDS_176	64	158	1.20E-06	46.3637	cl03052	Tymo coat superfamily
+Vpipmotdom_262	VpipCDS_177	38	322	5.26E-83	273.78	pfam01660	Vmethyltransf
+Vpipmotdom_263	VpipCDS_177	983	1277	3.27E-10	63.8181	cl03049	RdRP 2 superfamily
+Vpipmotdom_264	VpipCDS_177	785	828	3.34E-06	46.0155	cd18809	SF1 C RecD
+Vpipmotdom_265	VpipCDS_177	600	830	3.96E-62	211.465	pfam01443	Viral helicase1
+Vpipmotdom_266	VpipCDS_178	190	229	0.000167498	39.082	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_267	VpipCDS_178	28	229	2.77E-40	137.892	pfam01443	Viral helicase1
+Vpipmotdom_268	VpipCDS_179	20	105	2.50E-22	83.243	cl03157	Plant vir prot superfamily
+Vpipmotdom_269	VpipCDS_181	32	152	4.22E-06	44.7239	cl02836	Flexi CP superfamily
+Vpipmotdom_270	VpipCDS_182	6	253	1.77E-30	115.211	cl03270	Bromo MP superfamily
+Vpipmotdom_271	VpipCDS_183	21	217	1.02E-89	262.304	pfam01787	Ilar coat
+Vpipmotdom_272	VpipCDS_185	802	985	2.91E-102	317.105	pfam02248	Como SCP
+Vpipmotdom_273	VpipCDS_185	414	776	1.67E-100	319.812	cl03497	Como LCP superfamily
+Vpipmotdom_274	VpipCDS_187	224	703	0	690.506	pfam00998	RdRP 3
+Vpipmotdom_275	VpipCDS_188	22	155	0.00296775	36.3257	cl07210	Tombus P33 superfamily
+Vpipmotdom_276	VpipCDS_189	1	439	0	637.348	pfam00998	RdRP 3
+Vpipmotdom_277	VpipCDS_192	57	265	3.29E-47	155.694	cl29941	Viral coat superfamily
+Vpipmotdom_278	VpipCDS_193	43	352	4.93E-101	326.938	pfam01660	Vmethyltransf
+Vpipmotdom_279	VpipCDS_193	1560	1966	5.86E-51	187.467	cl03049	RdRP 2 superfamily
+Vpipmotdom_280	VpipCDS_193	1000	1087	5.70E-11	60.2327	cl05111	Peptidase C23 superfamily
+Vpipmotdom_281	VpipCDS_193	1181	1423	0.000259702	44.2884	pfam01443	Viral helicase1
+Vpipmotdom_282	VpipCDS_194	41	235	8.62E-49	159.848	pfam01443	Viral helicase1
+Vpipmotdom_283	VpipCDS_195	4	74	6.11E-22	82.0874	cl03157	Plant vir prot superfamily
+Vpipmotdom_284	VpipCDS_196	12	65	4.61E-12	54.2098	pfam02495	7kD coat
+Vpipmotdom_285	VpipCDS_197	108	247	7.59E-53	169.143	cl02836	Flexi CP superfamily
+Vpipmotdom_286	VpipCDS_197	48	99	7.01E-24	91.5132	pfam08358	Flexi CP N
+Vpipmotdom_287	VpipCDS_198	1	89	1.03E-40	129.039	pfam01623	Carla C4
+Vpipmotdom_288	VpipCDS_199	1	88	4.21E-41	130.654	pfam01708	Gemini mov
+Vpipmotdom_289	VpipCDS_200	8	248	6.73E-83	247.6	pfam00844	Gemini coat
+Vpipmotdom_290	VpipCDS_201	13	58	0.00620796	34.1338	cl21455	P-loop NTPase superfamily
+Vpipmotdom_291	VpipCDS_202	16	123	9.16E-36	124.937	cl02967	Gemini AL1 superfamily
+Vpipmotdom_292	VpipCDS_202	137	244	1.41E-33	118.862	cl07042	Gemini AL1 M superfamily
+Vpipmotdom_293	VpipCDS_203	2	188	2.56E-125	350.615	cl03163	Bromo coat superfamily
+Vpipmotdom_294	VpipCDS_204	8	176	2.50E-35	121.863	cl03052	Tymo coat superfamily
+Vpipmotdom_295	VpipCDS_206	40	143	3.32E-31	108.282	cl02836	Flexi CP superfamily
+Vpipmotdom_296	VpipCDS_208	43	329	2.67E-63	218.312	pfam01660	Vmethyltransf
+Vpipmotdom_297	VpipCDS_208	1205	1496	1.02E-27	118.131	cl03049	RdRP 2 superfamily
+Vpipmotdom_298	VpipCDS_208	792	1037	1.46E-23	100.528	pfam01443	Viral helicase1
+Vpipmotdom_299	VpipCDS_209	64	186	1.22E-18	82.4467	cl03100	MP superfamily
+Vpipmotdom_300	VpipCDS_210	39	210	1.44E-22	90.3902	cl05455	Tricho coat superfamily
+Vpipmotdom_301	VpipCDS_211	269	749	0	736.73	pfam00998	RdRP 3
+Vpipmotdom_302	VpipCDS_212	1	71	2.12E-19	73.4092	pfam05318	Tombus movement
+Vpipmotdom_303	VpipCDS_214	60	241	4.09E-34	124.108	cl29941	Viral coat superfamily
+Vpipmotdom_304	VpipCDS_215	365	829	0	631.185	pfam00998	RdRP 3
+Vpipmotdom_305	VpipCDS_217	12	194	9.78E-09	54.1341	cl04774	Umbravirus LDM superfamily
+Vpipmotdom_306	VpipCDS_218	6	215	6.01E-21	87.9083	cl02970	3A superfamily
+Vpipmotdom_307	VpipCDS_219	3	126	1.05E-63	193.59	cl02961	Poty coat superfamily
+Vpipmotdom_308	VpipCDS_221	7	256	8.98E-81	242.592	pfam00844	Gemini coat
+Vpipmotdom_309	VpipCDS_222	13	292	0	543.086	pfam00845	Gemini BL1
+Vpipmotdom_310	VpipCDS_224	1	93	6.83E-30	107.1	cl03100	MP superfamily
+Vpipmotdom_311	VpipCDS_226	346	809	0	568.398	pfam00998	RdRP 3
+Vpipmotdom_312	VpipCDS_227	140	261	0.00144961	39.6244	PRK10856	PRK10856
+Vpipmotdom_313	VpipCDS_228	18	225	0.00118858	39.1113	cl04774	Umbravirus LDM superfamily
+Vpipmotdom_314	VpipCDS_229	12	212	3.09E-19	83.6711	cl02970	3A superfamily
+Vpipmotdom_315	VpipCDS_230	261	691	1.44E-163	480.989	pfam00978	RdRP 2
+Vpipmotdom_316	VpipCDS_230	11	241	1.60E-45	162.996	cl04563	DUF585 superfamily
+Vpipmotdom_317	VpipCDS_231	1	254	4.48E-53	179.874	cl02808	RT like superfamily
+Vpipmotdom_318	VpipCDS_232	2849	3091	1.90E-129	406.22	pfam00767	Poty coat
+Vpipmotdom_319	VpipCDS_232	1529	1801	1.36E-128	405.332	pfam08440	Poty PP
+Vpipmotdom_320	VpipCDS_232	2297	2732	5.71E-80	273.478	cl02808	RT like superfamily
+Vpipmotdom_321	VpipCDS_232	239	359	4.13E-53	182.336	pfam13611	Peptidase S76
+Vpipmotdom_322	VpipCDS_232	2040	2272	3.31E-28	115.573	cl24133	Peptidase C4 superfamily
+Vpipmotdom_323	VpipCDS_232	658	809	1.82E-16	84.6607	cl20022	Peptidase C6 superfamily
+Vpipmotdom_324	VpipCDS_232	1393	1507	6.66E-08	54.4616	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_325	VpipCDS_232	1231	1319	2.22E-05	47.3069	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_326	VpipCDS_232	1213	1377	2.57E-15	77.147	smart00487	DEXDc
+Vpipmotdom_327	VpipCDS_232	1387	1504	6.30E-07	50.2823	pfam00271	Helicase C
+Vpipmotdom_328	VpipCDS_234	2253	2713	2.52E-102	338.191	cl02808	RT like superfamily
+Vpipmotdom_329	VpipCDS_234	2824	3047	7.47E-94	304.142	cl02961	Poty coat superfamily
+Vpipmotdom_330	VpipCDS_234	266	696	2.54E-82	279.186	cl20022	Peptidase C6 superfamily
+Vpipmotdom_331	VpipCDS_234	1489	1763	1.62E-80	267.431	cl07169	Poty PP superfamily
+Vpipmotdom_332	VpipCDS_234	709	1154	1.00E-72	251.868	cl16319	Potyvirid-P3 superfamily
+Vpipmotdom_333	VpipCDS_234	1985	2218	2.26E-65	222.658	cl24133	Peptidase C4 superfamily
+Vpipmotdom_334	VpipCDS_234	29	230	2.24E-24	104.336	cl29696	Peptidase S30 superfamily
+Vpipmotdom_335	VpipCDS_234	1192	1312	2.55E-10	61.026	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_336	VpipCDS_234	1349	1462	5.25E-05	45.7152	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_337	VpipCDS_234	1185	1313	2.50E-21	94.481	smart00487	DEXDc
+Vpipmotdom_338	VpipCDS_234	1347	1464	9.89E-12	63.7643	pfam00271	Helicase C
+Vpipmotdom_339	VpipCDS_237	1175	1339	1.08E-63	213.345	pfam03688	Nepo coat C
+Vpipmotdom_340	VpipCDS_237	1008	1169	7.35E-51	176.803	cl04041	Nepo coat superfamily
+Vpipmotdom_341	VpipCDS_237	840	930	3.89E-35	128.918	pfam03689	Nepo coat N
+Vpipmotdom_342	VpipCDS_238	73	238	2.82E-75	226.48	pfam01787	Ilar coat
+Vpipmotdom_343	VpipCDS_239	9	174	4.57E-11	60.0978	cl04656	Luteo PO superfamily
+Vpipmotdom_344	VpipCDS_240	214	415	5.60E-103	320.865	pfam02122	Peptidase S39
+Vpipmotdom_345	VpipCDS_240	595	976	9.07E-92	300.916	pfam02123	RdRP 4
+Vpipmotdom_346	VpipCDS_241	214	415	1.13E-105	317.398	pfam02122	Peptidase S39
+Vpipmotdom_347	VpipCDS_241	520	592	0.00402034	36.5539	cl25325	AIM3 superfamily
+Vpipmotdom_348	VpipCDS_243	235	683	1.32E-90	292.197	cl12253	PLRV ORF5 superfamily
+Vpipmotdom_349	VpipCDS_243	73	207	5.17E-44	154.327	cl03007	Luteo coat superfamily
+Vpipmotdom_350	VpipCDS_244	73	207	8.93E-46	148.164	cl03007	Luteo coat superfamily
+Vpipmotdom_351	VpipCDS_245	61	153	1.82E-14	66.0965	cl03297	Luteo Vpg superfamily
+Vpipmotdom_352	VpipCDS_252	223	1055	3.82E-141	467.568	cl15638	Mononeg RNA pol superfamily
+Vpipmotdom_353	VpipCDS_252	1187	2017	5.89E-34	142.633	cl27811	G-7-MTase superfamily
+Vpipmotdom_354	VpipCDS_253	325	799	0	655.068	pfam00998	RdRP 3
+Vpipmotdom_355	VpipCDS_253	153	290	3.30E-56	189.25	pfam08500	Tombus P33
+Vpipmotdom_356	VpipCDS_254	153	290	1.16E-55	176.538	pfam08500	Tombus P33
+Vpipmotdom_357	VpipCDS_255	76	269	7.10E-79	241.209	pfam00729	Viral coat
+Vpipmotdom_358	VpipCDS_256	1	188	5.27E-142	392.537	cl04156	TBSV P22 superfamily
+Vpipmotdom_359	VpipCDS_257	1	171	4.30E-116	325.959	cl03941	Tombus P19 superfamily
+Vpipmotdom_360	VpipCDS_263	235	1132	3.56E-134	447.923	cl15638	Mononeg RNA pol superfamily
+Vpipmotdom_361	VpipCDS_263	1146	1373	3.40E-40	149.452	cl16796	Mononeg mRNAcap superfamily
+Vpipmotdom_362	VpipCDS_263	1236	1533	9.99E-39	158.041	cl27811	G-7-MTase superfamily
+Vpipmotdom_363	VpipCDS_264	15	176	4.87E-36	123.404	cl03052	Tymo coat superfamily
+Vpipmotdom_364	VpipCDS_266	5	360	1.67E-55	190.902	cd10170	HSP70 NBD
+Vpipmotdom_365	VpipCDS_268	13	515	1.24E-106	327.763	cl20248	Viral Hsp90 superfamily
+Vpipmotdom_366	VpipCDS_270	75	257	1.80E-25	98.966	cl03354	Closter coat superfamily
+Vpipmotdom_367	VpipCDS_271	484	651	2.96E-05	45.038	cl03354	Closter coat superfamily
+Vpipmotdom_368	VpipCDS_273	10	208	1.11E-68	209.94	cl04656	Luteo PO superfamily
+Vpipmotdom_369	VpipCDS_274	202	414	1.12E-106	331.265	pfam02122	Peptidase S39
+Vpipmotdom_370	VpipCDS_274	636	1012	3.63E-88	291.672	pfam02123	RdRP 4
+Vpipmotdom_371	VpipCDS_275	202	414	1.34E-108	325.873	pfam02122	Peptidase S39
+Vpipmotdom_372	VpipCDS_276	227	659	1.57E-104	327.636	cl12253	PLRV ORF5 superfamily
+Vpipmotdom_373	VpipCDS_276	65	201	6.81E-60	197.084	cl03007	Luteo coat superfamily
+Vpipmotdom_374	VpipCDS_277	65	201	1.59E-61	187.839	cl03007	Luteo coat superfamily
+Vpipmotdom_375	VpipCDS_278	45	142	1.53E-24	91.5197	cl03297	Luteo Vpg superfamily
+Vpipmotdom_376	VpipCDS_286	1148	2040	2.73E-144	472.364	TIGR04198	paramyx RNAcap
+Vpipmotdom_377	VpipCDS_286	18	1042	1.59E-131	439.833	cl15638	Mononeg RNA pol superfamily
+Vpipmotdom_378	VpipCDS_287	2	116	1.25E-50	156.638	cl03007	Luteo coat superfamily
+Vpipmotdom_379	VpipCDS_288	59	340	1.73E-84	279.558	pfam01660	Vmethyltransf
+Vpipmotdom_380	VpipCDS_288	735	831	2.30E-15	73.6041	cl05113	Peptidase C21 superfamily
+Vpipmotdom_381	VpipCDS_288	1491	1728	4.46E-10	64.2033	cl03049	RdRP 2 superfamily
+Vpipmotdom_382	VpipCDS_288	1909	2047	7.77E-07	50.9861	cl03052	Tymo coat superfamily
+Vpipmotdom_383	VpipCDS_288	907	1003	0.000918427	41.7479	cd00009	AAA
+Vpipmotdom_384	VpipCDS_288	567	647	0.00307986	41.7997	cl25522	FAP superfamily
+Vpipmotdom_385	VpipCDS_288	926	1156	7.40E-49	174.101	pfam01443	Viral helicase1
+Vpipmotdom_386	VpipCDS_289	44	182	5.20E-07	47.5193	cl03052	Tymo coat superfamily
+Vpipmotdom_387	VpipCDS_290	336	505	7.66E-27	106.697	cl04041	Nepo coat superfamily
+Vpipmotdom_388	VpipCDS_290	511	582	1.97E-18	82.3775	cl04211	Nepo coat C superfamily
+Vpipmotdom_389	VpipCDS_290	172	248	8.27E-15	69.5974	cl04212	Nepo coat N superfamily
+Vpipmotdom_390	VpipCDS_291	2	204	1.39E-88	259.005	pfam17464	Pns11 12
+Vpipmotdom_391	VpipCDS_292	1132	1407	1.36E-85	281.094	cd01699	RNA dep RNAP
+Vpipmotdom_392	VpipCDS_292	263	366	4.17E-38	138.138	pfam00910	RNA helicase
+Vpipmotdom_393	VpipCDS_293	325	799	0	650.83	pfam00998	RdRP 3
+Vpipmotdom_394	VpipCDS_293	145	290	2.54E-54	183.857	pfam08500	Tombus P33
+Vpipmotdom_395	VpipCDS_294	145	290	2.07E-54	173.457	pfam08500	Tombus P33
+Vpipmotdom_396	VpipCDS_295	74	264	3.74E-76	233.89	pfam00729	Viral coat
+Vpipmotdom_397	VpipCDS_296	1	188	1.69E-120	338.224	cl04156	TBSV P22 superfamily
+Vpipmotdom_398	VpipCDS_297	1	171	2.45E-85	248.149	cl03941	Tombus P19 superfamily
+Vpipmotdom_399	VpipCDS_298	1285	1388	5.15E-68	223.831	pfam05415	Peptidase C36
+Vpipmotdom_400	VpipCDS_298	1691	2015	3.19E-15	80.3816	cl03049	RdRP 2 superfamily
+Vpipmotdom_401	VpipCDS_298	1136	1180	0.000384813	40.6228	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_402	VpipCDS_298	940	1181	5.91E-32	125.18	pfam01443	Viral helicase1
+Vpipmotdom_403	VpipCDS_299	1171	1668	2.03E-107	351.673	cl02808	RT like superfamily
+Vpipmotdom_404	VpipCDS_299	471	574	4.15E-42	149.694	pfam00910	RNA helicase
+Vpipmotdom_405	VpipCDS_300	2	194	7.46E-70	219.053	cl03049	RdRP 2 superfamily
+Vpipmotdom_406	VpipCDS_301	29	130	0.000588398	37.9159	cl04562	Viral P18 superfamily
+Vpipmotdom_407	VpipCDS_302	14	217	4.45E-30	114.055	cl03270	Bromo MP superfamily
+Vpipmotdom_408	VpipCDS_303	39	241	1.21E-60	189.501	cl03355	Ilar coat superfamily
+Vpipmotdom_409	VpipCDS_305	17	191	2.80E-74	222.021	cl05061	Tenui NS3 superfamily
+Vpipmotdom_410	VpipCDS_306	7	251	2.14E-99	291.556	pfam05733	Tenui N
+Vpipmotdom_411	VpipCDS_308	363	558	6.27E-15	73.5668	cl09540	Peptidase S39 superfamily
+Vpipmotdom_412	VpipCDS_308	139	301	0.00429328	38.5137	cl09540	Peptidase S39 superfamily
+Vpipmotdom_413	VpipCDS_309	32	406	5.19E-112	340.207	pfam02123	RdRP 4
+Vpipmotdom_414	VpipCDS_310	46	262	1.95E-70	215.015	pfam00729	Viral coat
+Vpipmotdom_415	VpipCDS_311	1218	1664	3.58E-147	459.033	pfam00978	RdRP 2
+Vpipmotdom_416	VpipCDS_311	50	437	7.88E-45	164.769	pfam01660	Vmethyltransf
+Vpipmotdom_417	VpipCDS_311	882	1135	5.76E-51	179.879	pfam01443	Viral helicase1
+Vpipmotdom_418	VpipCDS_312	50	437	1.06E-45	166.695	pfam01660	Vmethyltransf
+Vpipmotdom_419	VpipCDS_312	882	1135	5.01E-51	179.493	pfam01443	Viral helicase1
+Vpipmotdom_420	VpipCDS_313	16	178	2.23E-17	77.4391	cl03100	MP superfamily
+Vpipmotdom_421	VpipCDS_315	325	799	0	640.815	pfam00998	RdRP 3
+Vpipmotdom_422	VpipCDS_315	135	290	8.23E-59	196.184	pfam08500	Tombus P33
+Vpipmotdom_423	VpipCDS_316	135	290	6.62E-59	184.628	pfam08500	Tombus P33
+Vpipmotdom_424	VpipCDS_317	76	269	2.48E-73	226.956	pfam00729	Viral coat
+Vpipmotdom_425	VpipCDS_318	1	188	1.23E-131	366.729	cl04156	TBSV P22 superfamily
+Vpipmotdom_426	VpipCDS_319	1	171	3.78E-92	265.483	cl03941	Tombus P19 superfamily
+Vpipmotdom_427	VpipCDS_320	500	933	4.94E-124	399.369	cl20022	Peptidase C6 superfamily
+Vpipmotdom_428	VpipCDS_320	3014	3246	1.59E-105	337.654	cl02961	Poty coat superfamily
+Vpipmotdom_429	VpipCDS_320	2485	2930	8.57E-102	336.651	cl02808	RT like superfamily
+Vpipmotdom_430	VpipCDS_320	1721	2003	7.08E-70	237	cl07169	Poty PP superfamily
+Vpipmotdom_431	VpipCDS_320	2220	2452	1.41E-50	180.286	cl24133	Peptidase C4 superfamily
+Vpipmotdom_432	VpipCDS_320	950	1387	1.99E-47	177.91	cl16319	Potyvirid-P3 superfamily
+Vpipmotdom_433	VpipCDS_320	217	474	9.02E-29	117.433	cl29696	Peptidase S30 superfamily
+Vpipmotdom_434	VpipCDS_320	1424	1544	7.69E-14	71.4264	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_435	VpipCDS_320	1588	1694	2.32E-05	46.8708	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_436	VpipCDS_320	1408	1559	1.27E-22	98.333	smart00487	DEXDc
+Vpipmotdom_437	VpipCDS_320	1585	1696	2.95E-11	62.6087	pfam00271	Helicase C
+Vpipmotdom_438	VpipCDS_320	2256	2387	0.00753465	39.276	pfam13365	Trypsin 2
+Vpipmotdom_439	VpipCDS_321	8	177	1.18E-35	132.199	cl02808	RT like superfamily
+Vpipmotdom_440	VpipCDS_322	35	247	3.16E-25	98.2997	cl29941	Viral coat superfamily
+Vpipmotdom_441	VpipCDS_323	1284	1387	6.75E-58	194.941	cl05138	Peptidase C36 superfamily
+Vpipmotdom_442	VpipCDS_323	1696	2052	2.54E-15	80.7668	cl03049	RdRP 2 superfamily
+Vpipmotdom_443	VpipCDS_323	1135	1179	0.00040511	40.6228	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_444	VpipCDS_323	936	1037	0.00233958	39.6045	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_445	VpipCDS_323	939	1180	6.33E-30	119.402	pfam01443	Viral helicase1
+Vpipmotdom_446	VpipCDS_324	157	274	2.33E-07	54.2299	cl20022	Peptidase C6 superfamily
+Vpipmotdom_447	VpipCDS_325	32	211	1.20E-13	66.7133	cl29941	Viral coat superfamily
+Vpipmotdom_448	VpipCDS_326	6	189	9.06E-10	57.4775	cl02970	3A superfamily
+Vpipmotdom_449	VpipCDS_327	1614	2065	1.57E-139	444.892	pfam00680	RdRP 1
+Vpipmotdom_450	VpipCDS_327	778	1046	6.31E-16	80.2235	cl07169	Poty PP superfamily
+Vpipmotdom_451	VpipCDS_327	2172	2334	1.05E-13	73.0221	cl02961	Poty coat superfamily
+Vpipmotdom_452	VpipCDS_327	1380	1545	9.11E-09	58.1782	cl24133	Peptidase C4 superfamily
+Vpipmotdom_453	VpipCDS_327	450	615	3.72E-08	55.2458	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_454	VpipCDS_327	642	756	1.30E-07	53.306	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_455	VpipCDS_327	439	596	6.59E-16	78.3026	smart00487	DEXDc
+Vpipmotdom_456	VpipCDS_327	694	753	0.000204769	41.8137	smart00490	HELICc
+Vpipmotdom_457	VpipCDS_328	1	78	2.06E-56	169.011	pfam01524	Gemini V2
+Vpipmotdom_458	VpipCDS_328	79	102	5.86E-07	42.2766	pfam03716	WCCH
+Vpipmotdom_459	VpipCDS_329	18	256	4.54E-99	288.816	pfam00844	Gemini coat
+Vpipmotdom_460	VpipCDS_330	47	89	1.71E-21	80.1185	pfam08464	Gemini AC4 5 2
+Vpipmotdom_461	VpipCDS_331	4	115	2.58E-38	125.776	cl03201	Gemini AL3 superfamily
+Vpipmotdom_462	VpipCDS_332	1	129	5.80E-27	96.9771	cl03213	Gemini AL2 superfamily
+Vpipmotdom_463	VpipCDS_333	7	119	5.35E-62	193.888	pfam00799	Gemini AL1
+Vpipmotdom_464	VpipCDS_333	126	230	2.78E-37	129.647	cl07042	Gemini AL1 M superfamily
+Vpipmotdom_465	VpipCDS_334	1	57	1.28E-18	71.308	cl03236	Gemini C4 superfamily
+Vpipmotdom_466	VpipCDS_337	645	806	3.62E-59	202.062	pfam12267	DUF3614
+Vpipmotdom_467	VpipCDS_337	211	290	6.75E-53	180.305	pfam12591	DUF3762
+Vpipmotdom_468	VpipCDS_337	1	131	4.39E-51	177.501	pfam12364	DUF3648
+Vpipmotdom_469	VpipCDS_337	1029	1362	1.01E-44	165.539	pfam01660	Vmethyltransf
+Vpipmotdom_470	VpipCDS_337	882	970	2.03E-36	133.287	pfam05533	Peptidase C42
+Vpipmotdom_471	VpipCDS_337	397	486	3.36E-26	104.397	cl05214	Peptidase C42 superfamily
+Vpipmotdom_472	VpipCDS_337	2707	2975	3.79E-28	114.78	pfam01443	Viral helicase1
+Vpipmotdom_473	VpipCDS_338	2	416	4.68E-126	373.519	pfam00978	RdRP 2
+Vpipmotdom_474	VpipCDS_339	1	303	0	580.062	cl06284	CTV P33 superfamily
+Vpipmotdom_475	VpipCDS_340	1	51	7.94E-20	73.067	pfam06706	CTV P6
+Vpipmotdom_476	VpipCDS_341	4	368	3.00E-62	209.777	cd10170	HSP70 NBD
+Vpipmotdom_477	VpipCDS_342	3	486	7.94E-139	410.966	pfam03225	Viral Hsp90
+Vpipmotdom_478	VpipCDS_343	50	239	1.39E-71	216.452	pfam01785	Closter coat
+Vpipmotdom_479	VpipCDS_344	30	220	5.15E-67	204.125	pfam01785	Closter coat
+Vpipmotdom_480	VpipCDS_345	1	167	2.01E-104	295.844	pfam05520	Citrus P18
+Vpipmotdom_481	VpipCDS_346	1	119	3.15E-78	225.654	pfam06922	CTV P13
+Vpipmotdom_482	VpipCDS_347	16	159	7.00E-61	185.439	cl13240	RSS P20 superfamily
+Vpipmotdom_483	VpipCDS_348	1	209	3.21E-153	422.559	cl04767	CTV P23 superfamily
+Vpipmotdom_484	VpipCDS_349	1707	1924	8.83E-13	72.6777	cl03049	RdRP 2 superfamily
+Vpipmotdom_485	VpipCDS_349	1298	1397	2.57E-08	53.5731	cl05138	Peptidase C36 superfamily
+Vpipmotdom_486	VpipCDS_349	953	1196	2.06E-21	94.7495	pfam01443	Viral helicase1
+Vpipmotdom_487	VpipCDS_350	254	730	0	671.246	pfam00998	RdRP 3
+Vpipmotdom_488	VpipCDS_352	2	63	2.07E-08	45.2896	cl05068	Tombus movement superfamily
+Vpipmotdom_489	VpipCDS_353	30	56	1.25E-05	37.7065	cl05965	MNSV P7B superfamily
+Vpipmotdom_490	VpipCDS_354	51	217	5.15E-40	139.901	cl29941	Viral coat superfamily
+Vpipmotdom_491	VpipCDS_356	263	365	1.01E-32	119.742	cl04211	Nepo coat C superfamily
+Vpipmotdom_492	VpipCDS_356	89	258	1.23E-28	109.008	cl04041	Nepo coat superfamily
+Vpipmotdom_493	VpipCDS_357	1	424	1.86E-36	142.623	pfam03251	Tymo 45kd 70kd
+Vpipmotdom_494	VpipCDS_358	38	337	3.09E-76	255.676	pfam01660	Vmethyltransf
+Vpipmotdom_495	VpipCDS_358	761	861	1.57E-17	79.3821	cl05113	Peptidase C21 superfamily
+Vpipmotdom_496	VpipCDS_358	1529	1719	5.39E-17	85.7744	cl03049	RdRP 2 superfamily
+Vpipmotdom_497	VpipCDS_358	616	706	0.00241096	42.3889	cl25934	Neisseria TspB superfamily
+Vpipmotdom_498	VpipCDS_358	951	1187	1.34E-48	172.945	pfam01443	Viral helicase1
+Vpipmotdom_499	VpipCDS_359	8	177	6.09E-40	133.419	cl03052	Tymo coat superfamily
+Vpipmotdom_500	VpipCDS_360	48	381	3.41E-52	185.184	pfam01660	Vmethyltransf
+Vpipmotdom_501	VpipCDS_360	595	674	2.30E-31	117.303	cl13884	CMV 1a C superfamily
+Vpipmotdom_502	VpipCDS_360	420	592	6.75E-08	53.4	cl13851	CMV 1a superfamily
+Vpipmotdom_503	VpipCDS_360	688	951	2.72E-40	148.292	pfam01443	Viral helicase1
+Vpipmotdom_504	VpipCDS_361	39	325	3.91E-91	297.663	pfam01660	Vmethyltransf
+Vpipmotdom_505	VpipCDS_361	1252	1504	2.30E-07	54.9585	cl03049	RdRP 2 superfamily
+Vpipmotdom_506	VpipCDS_361	585	703	0.000146833	44.2243	cl21496	2OG-FeII Oxy superfamily
+Vpipmotdom_507	VpipCDS_361	1000	1054	0.00230368	38.3116	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_508	VpipCDS_361	825	1055	3.42E-53	186.042	pfam01443	Viral helicase1
+Vpipmotdom_509	VpipCDS_362	25	221	1.10E-42	143.67	pfam01443	Viral helicase1
+Vpipmotdom_510	VpipCDS_363	9	102	5.33E-28	97.8806	pfam01307	Plant vir prot
+Vpipmotdom_511	VpipCDS_364	2	60	1.13E-10	50.743	pfam02495	7kD coat
+Vpipmotdom_512	VpipCDS_365	46	178	5.62E-41	136.401	cl02836	Flexi CP superfamily
+Vpipmotdom_513	VpipCDS_366	39	340	3.58E-88	289.188	pfam01660	Vmethyltransf
+Vpipmotdom_514	VpipCDS_366	1131	1423	3.53E-07	54.1881	cl03049	RdRP 2 superfamily
+Vpipmotdom_515	VpipCDS_366	925	963	0.000358521	40.8836	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_516	VpipCDS_366	732	964	2.46E-65	220.71	pfam01443	Viral helicase1
+Vpipmotdom_517	VpipCDS_367	26	224	9.41E-42	141.359	pfam01443	Viral helicase1
+Vpipmotdom_518	VpipCDS_368	9	108	4.88E-44	138.712	pfam01307	Plant vir prot
+Vpipmotdom_519	VpipCDS_369	10	64	3.07E-08	44.5798	pfam02495	7kD coat
+Vpipmotdom_520	VpipCDS_370	50	188	1.46E-75	224.612	pfam00286	Flexi CP
+Vpipmotdom_521	VpipCDS_371	326	759	8.46E-118	381.264	cl20022	Peptidase C6 superfamily
+Vpipmotdom_522	VpipCDS_371	2308	2767	9.78E-98	324.709	cl02808	RT like superfamily
+Vpipmotdom_523	VpipCDS_371	2839	3071	5.08E-96	310.305	cl02961	Poty coat superfamily
+Vpipmotdom_524	VpipCDS_371	1545	1818	4.01E-65	223.133	cl07169	Poty PP superfamily
+Vpipmotdom_525	VpipCDS_371	774	1211	4.84E-48	179.836	cl16319	Potyvirid-P3 superfamily
+Vpipmotdom_526	VpipCDS_371	63	301	1.84E-37	142.471	cl29696	Peptidase S30 superfamily
+Vpipmotdom_527	VpipCDS_371	2039	2270	5.43E-37	140.996	cl24133	Peptidase C4 superfamily
+Vpipmotdom_528	VpipCDS_371	1248	1373	7.80E-12	65.2632	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_529	VpipCDS_371	1411	1523	0.000187911	44.4464	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_530	VpipCDS_371	1227	1383	1.62E-23	100.644	smart00487	DEXDc
+Vpipmotdom_531	VpipCDS_371	1409	1520	1.12E-13	69.5423	pfam00271	Helicase C
+Vpipmotdom_532	VpipCDS_373	1	92	2.89E-24	94.3601	cl02808	RT like superfamily
+Vpipmotdom_533	VpipCDS_374	267	743	0	718.24	pfam00998	RdRP 3
+Vpipmotdom_534	VpipCDS_376	1	61	9.58E-24	83.8095	pfam05318	Tombus movement
+Vpipmotdom_535	VpipCDS_378	51	245	2.01E-70	218.097	pfam00729	Viral coat
+Vpipmotdom_536	VpipCDS_378	250	348	6.13E-67	205.724	pfam08462	Carmo coat C
+Vpipmotdom_537	VpipCDS_379	2603	2833	2.34E-146	454.33	pfam12381	Peptidase C3G
+Vpipmotdom_538	VpipCDS_379	708	904	7.27E-129	402.798	pfam12264	Waikav capsid 1
+Vpipmotdom_539	VpipCDS_379	3025	3324	4.10E-83	274.931	cd01699	RNA dep RNAP
+Vpipmotdom_540	VpipCDS_379	1770	1876	1.35E-38	140.449	pfam00910	RNA helicase
+Vpipmotdom_541	VpipCDS_379	923	1094	1.98E-11	65.11	cd00205	rhv like
+Vpipmotdom_542	VpipCDS_379	1155	1304	0.000395652	43.924	cl13999	rhv like superfamily
+Vpipmotdom_543	VpipCDS_380	51	280	2.92E-102	298.364	cl02961	Poty coat superfamily
+Vpipmotdom_544	VpipCDS_381	7	170	3.61E-07	49.7735	cl02970	3A superfamily
+Vpipmotdom_545	VpipCDS_382	20	223	5.82E-61	189.977	cl29941	Viral coat superfamily
+Vpipmotdom_546	VpipCDS_383	321	758	1.54E-119	386.272	cl20022	Peptidase C6 superfamily
+Vpipmotdom_547	VpipCDS_383	2854	3086	3.44E-108	345.358	cl02961	Poty coat superfamily
+Vpipmotdom_548	VpipCDS_383	2298	2767	1.77E-96	321.243	cl02808	RT like superfamily
+Vpipmotdom_549	VpipCDS_383	1540	1820	1.30E-53	190.005	cl07169	Poty PP superfamily
+Vpipmotdom_550	VpipCDS_383	2038	2270	3.79E-53	187.605	cl24133	Peptidase C4 superfamily
+Vpipmotdom_551	VpipCDS_383	772	1207	3.56E-49	183.302	cl16319	Potyvirid-P3 superfamily
+Vpipmotdom_552	VpipCDS_383	55	299	2.95E-23	101.255	cl29696	Peptidase S30 superfamily
+Vpipmotdom_553	VpipCDS_383	1244	1369	1.20E-15	76.434	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_554	VpipCDS_383	1407	1517	3.15E-06	49.8392	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_555	VpipCDS_383	1217	1373	1.49E-22	97.9478	smart00487	DEXDc
+Vpipmotdom_556	VpipCDS_383	1405	1513	2.04E-08	54.5195	pfam00271	Helicase C
+Vpipmotdom_557	VpipCDS_385	231	708	0	678.565	pfam00998	RdRP 3
+Vpipmotdom_558	VpipCDS_389	37	223	1.57E-61	194.985	pfam00729	Viral coat
+Vpipmotdom_559	VpipCDS_390	1	409	1.69E-109	340.503	cl02808	RT like superfamily
+Vpipmotdom_560	VpipCDS_390	487	719	9.33E-107	324.943	cl02961	Poty coat superfamily
+Vpipmotdom_561	VpipCDS_392	267	711	0	682.876	pfam00851	Peptidase C6
+Vpipmotdom_562	VpipCDS_392	722	1167	0	649.394	pfam13608	Potyvirid-P3
+Vpipmotdom_563	VpipCDS_392	1502	1776	7.08E-138	431.911	pfam08440	Poty PP
+Vpipmotdom_564	VpipCDS_392	1998	2230	1.50E-137	429.511	pfam00863	Peptidase C4
+Vpipmotdom_565	VpipCDS_392	2854	3084	5.85E-126	396.205	cl02961	Poty coat superfamily
+Vpipmotdom_566	VpipCDS_392	2265	2725	4.13E-101	334.725	cl02808	RT like superfamily
+Vpipmotdom_567	VpipCDS_392	15	255	1.14E-59	206.414	pfam01577	Peptidase S30
+Vpipmotdom_568	VpipCDS_392	1205	1322	2.27E-12	67.7225	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_569	VpipCDS_392	1361	1481	4.62E-06	48.7968	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_570	VpipCDS_392	1198	1339	6.11E-20	90.2438	smart00487	DEXDc
+Vpipmotdom_571	VpipCDS_392	1379	1475	1.01E-09	57.2217	smart00490	HELICc
+Vpipmotdom_572	VpipCDS_394	325	799	0	653.142	pfam00998	RdRP 3
+Vpipmotdom_573	VpipCDS_394	145	290	2.09E-56	189.635	pfam08500	Tombus P33
+Vpipmotdom_574	VpipCDS_395	145	290	3.66E-56	177.694	pfam08500	Tombus P33
+Vpipmotdom_575	VpipCDS_396	79	272	1.19E-74	230.423	pfam00729	Viral coat
+Vpipmotdom_576	VpipCDS_397	1	188	4.17E-144	397.93	cl04156	TBSV P22 superfamily
+Vpipmotdom_577	VpipCDS_398	1	171	1.69E-117	329.426	cl03941	Tombus P19 superfamily
+Vpipmotdom_578	VpipCDS_399	39	328	6.70E-98	317.308	pfam01660	Vmethyltransf
+Vpipmotdom_579	VpipCDS_399	1250	1535	7.04E-08	56.4993	cl03049	RdRP 2 superfamily
+Vpipmotdom_580	VpipCDS_399	879	1113	6.14E-52	182.575	pfam01443	Viral helicase1
+Vpipmotdom_581	VpipCDS_400	4	54	0.00655065	32.9686	TIGR02510	NrdE-prime
+Vpipmotdom_582	VpipCDS_401	29	231	1.11E-30	112.854	pfam01443	Viral helicase1
+Vpipmotdom_583	VpipCDS_402	5	102	3.35E-17	70.1462	cl03157	Plant vir prot superfamily
+Vpipmotdom_584	VpipCDS_403	5	60	0.000138475	35.335	pfam02495	7kD coat
+Vpipmotdom_585	VpipCDS_404	62	201	2.76E-41	137.942	cl02836	Flexi CP superfamily
+Vpipmotdom_586	VpipCDS_405	43	354	9.31E-94	305.752	pfam01660	Vmethyltransf
+Vpipmotdom_587	VpipCDS_405	1482	1891	4.27E-52	190.549	cl03049	RdRP 2 superfamily
+Vpipmotdom_588	VpipCDS_405	644	762	2.96E-05	46.5355	cl21496	2OG-FeII Oxy superfamily
+Vpipmotdom_589	VpipCDS_405	920	1007	0.000111425	42.5135	cl05111	Peptidase C23 superfamily
+Vpipmotdom_590	VpipCDS_405	1087	1192	0.000331868	42.9336	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_591	VpipCDS_405	1091	1357	1.96E-09	59.6964	pfam01443	Viral helicase1
+Vpipmotdom_592	VpipCDS_405	675	762	0.000169562	42.4666	pfam03171	2OG-FeII Oxy
+Vpipmotdom_593	VpipCDS_406	25	227	1.73E-28	107.461	pfam01443	Viral helicase1
+Vpipmotdom_594	VpipCDS_407	5	102	5.11E-21	79.7762	cl03157	Plant vir prot superfamily
+Vpipmotdom_595	VpipCDS_408	5	63	1.72E-12	55.3654	pfam02495	7kD coat
+Vpipmotdom_596	VpipCDS_409	110	248	6.55E-45	148.728	cl02836	Flexi CP superfamily
+Vpipmotdom_597	VpipCDS_409	49	100	3.74E-18	76.1052	pfam08358	Flexi CP N
+Vpipmotdom_598	VpipCDS_412	1	276	5.85E-83	258.07	cl02808	RT like superfamily
+Vpipmotdom_599	VpipCDS_413	43	354	1.22E-99	322.701	pfam01660	Vmethyltransf
+Vpipmotdom_600	VpipCDS_413	1446	1850	4.42E-52	190.549	cl03049	RdRP 2 superfamily
+Vpipmotdom_601	VpipCDS_413	869	953	7.61E-15	71.4035	cl05111	Peptidase C23 superfamily
+Vpipmotdom_602	VpipCDS_413	1117	1312	4.86E-06	49.6812	pfam01443	Viral helicase1
+Vpipmotdom_603	VpipCDS_413	1011	1162	0.00340108	40.2072	pfam13191	AAA 16
+Vpipmotdom_604	VpipCDS_414	24	154	0.00308843	36.2404	cl21455	P-loop NTPase superfamily
+Vpipmotdom_605	VpipCDS_414	25	222	3.95E-36	126.721	pfam01443	Viral helicase1
+Vpipmotdom_606	VpipCDS_415	4	99	7.64E-24	87.095	cl03157	Plant vir prot superfamily
+Vpipmotdom_607	VpipCDS_416	11	57	5.94E-06	38.8018	pfam02495	7kD coat
+Vpipmotdom_608	VpipCDS_417	102	242	1.31E-56	178.388	cl02836	Flexi CP superfamily
+Vpipmotdom_609	VpipCDS_417	42	93	9.23E-20	80.3424	pfam08358	Flexi CP N
+Vpipmotdom_610	VpipCDS_418	17	93	5.26E-27	94.7561	cl03285	Carla C4 superfamily
+Vpipmotdom_611	VpipCDS_420	139	258	1.21E-08	55.3855	cl20022	Peptidase C6 superfamily
+Vpipmotdom_612	VpipCDS_422	1	142	1.87E-44	143.152	pfam00721	TMV coat
+Vpipmotdom_613	VpipCDS_423	2261	2769	7.00E-138	440.655	pfam00680	RdRP 1
+Vpipmotdom_614	VpipCDS_423	1459	1563	2.09E-34	128.122	pfam00910	RNA helicase
+Vpipmotdom_615	VpipCDS_423	663	788	6.93E-14	72.0436	cd00205	rhv like
+Vpipmotdom_616	VpipCDS_424	1186	1687	4.37E-172	530.791	pfam00680	RdRP 1
+Vpipmotdom_617	VpipCDS_424	490	593	1.36E-42	151.234	pfam00910	RNA helicase
+Vpipmotdom_618	VpipCDS_424	1100	1134	0.00934386	38.9679	cl02893	Peptidase C3 superfamily
+Vpipmotdom_619	VpipCDS_425	1	580	6.45E-96	303.545	cl05450	Fiji 64 capsid superfamily
+Vpipmotdom_620	VpipCDS_426	95	394	9.19E-42	155.139	pfam01660	Vmethyltransf
+Vpipmotdom_621	VpipCDS_426	767	1025	1.51E-54	189.123	pfam01443	Viral helicase1
+Vpipmotdom_622	VpipCDS_427	43	354	2.95E-103	333.101	pfam01660	Vmethyltransf
+Vpipmotdom_623	VpipCDS_427	1568	1981	1.35E-56	203.646	cl03049	RdRP 2 superfamily
+Vpipmotdom_624	VpipCDS_427	1008	1095	1.50E-10	59.0771	cl05111	Peptidase C23 superfamily
+Vpipmotdom_625	VpipCDS_427	691	820	8.00E-09	57.3211	cl21496	2OG-FeII Oxy superfamily
+Vpipmotdom_626	VpipCDS_427	1181	1439	5.90E-12	67.0152	pfam01443	Viral helicase1
+Vpipmotdom_627	VpipCDS_427	733	821	1.03E-05	45.9334	pfam03171	2OG-FeII Oxy
+Vpipmotdom_628	VpipCDS_428	25	201	3.02E-29	109.387	pfam01443	Viral helicase1
+Vpipmotdom_629	VpipCDS_429	5	103	1.56E-29	101.347	pfam01307	Plant vir prot
+Vpipmotdom_630	VpipCDS_430	14	67	2.92E-15	62.6842	pfam02495	7kD coat
+Vpipmotdom_631	VpipCDS_431	133	273	9.73E-27	102.119	cl02836	Flexi CP superfamily
+Vpipmotdom_632	VpipCDS_431	74	124	3.08E-15	68.7864	pfam08358	Flexi CP N
+Vpipmotdom_633	VpipCDS_432	5	97	8.06E-40	127.883	pfam01623	Carla C4
+Vpipmotdom_634	VpipCDS_437	1	235	0	507.689	cl25292	VMR2 superfamily
+Vpipmotdom_635	VpipCDS_439	40	1074	0	962.164	pfam00946	Mononeg RNA pol
+Vpipmotdom_636	VpipCDS_439	1087	1313	1.90E-65	221.87	cl16796	Mononeg mRNAcap superfamily
+Vpipmotdom_637	VpipCDS_440	39	328	9.36E-82	271.084	pfam01660	Vmethyltransf
+Vpipmotdom_638	VpipCDS_440	1333	1532	1.52E-08	58.8105	cl03049	RdRP 2 superfamily
+Vpipmotdom_639	VpipCDS_440	538	662	9.36E-08	53.8543	cl21496	2OG-FeII Oxy superfamily
+Vpipmotdom_640	VpipCDS_440	1128	1165	0.00100585	39.4672	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_641	VpipCDS_440	936	1166	2.24E-57	197.983	pfam01443	Viral helicase1
+Vpipmotdom_642	VpipCDS_441	24	217	1.44E-27	104.38	pfam01443	Viral helicase1
+Vpipmotdom_643	VpipCDS_442	4	100	7.85E-43	135.245	pfam01307	Plant vir prot
+Vpipmotdom_644	VpipCDS_443	6	58	3.18E-10	49.2022	pfam02495	7kD coat
+Vpipmotdom_645	VpipCDS_444	140	278	5.75E-64	198.419	pfam00286	Flexi CP
+Vpipmotdom_646	VpipCDS_445	1	222	2.89E-95	276.115	pfam05515	Viral NABP
+Vpipmotdom_647	VpipCDS_446	1	88	6.60E-10	53.4177	cl03049	RdRP 2 superfamily
+Vpipmotdom_648	VpipCDS_447	3	175	1.26E-17	78.5947	cl03100	MP superfamily
+Vpipmotdom_649	VpipCDS_448	4	148	1.39E-12	61.8753	cl20208	TMV coat superfamily
+Vpipmotdom_650	VpipCDS_449	7	260	1.26E-29	111.239	cl02983	Gemini coat superfamily
+Vpipmotdom_651	VpipCDS_450	10	232	1.56E-123	351.642	cl02984	Gemini BL1 superfamily
+Vpipmotdom_652	VpipCDS_451	29	213	6.81E-69	209.623	cl08289	Cucumo coat superfamily
+Vpipmotdom_653	VpipCDS_452	195	331	0.00078522	41.2065	cl03939	Rhabdo ncap 2 superfamily
+Vpipmotdom_654	VpipCDS_453	2	71	3.30E-11	55.4652	cl04041	Nepo coat superfamily
+Vpipmotdom_655	VpipCDS_454	368	802	1.84E-126	406.302	cl20022	Peptidase C6 superfamily
+Vpipmotdom_656	VpipCDS_454	2346	2789	1.15E-107	353.599	cl02808	RT like superfamily
+Vpipmotdom_657	VpipCDS_454	2895	3123	2.06E-100	323.017	cl02961	Poty coat superfamily
+Vpipmotdom_658	VpipCDS_454	1586	1862	9.00E-73	245.089	cl07169	Poty PP superfamily
+Vpipmotdom_659	VpipCDS_454	817	1252	4.37E-56	203.333	cl16319	Potyvirid-P3 superfamily
+Vpipmotdom_660	VpipCDS_454	2082	2314	7.59E-43	157.945	cl24133	Peptidase C4 superfamily
+Vpipmotdom_661	VpipCDS_454	109	344	7.17E-41	152.101	cl29696	Peptidase S30 superfamily
+Vpipmotdom_662	VpipCDS_454	1289	1420	2.14E-10	61.4112	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_663	VpipCDS_454	1282	1560	4.23E-07	54.7434	cl25403	ABC ATPase superfamily
+Vpipmotdom_664	VpipCDS_454	1271	1424	6.17E-23	99.1034	smart00487	DEXDc
+Vpipmotdom_665	VpipCDS_454	1450	1561	2.16E-15	74.1647	pfam00271	Helicase C
+Vpipmotdom_666	VpipCDS_455	1002	1161	8.17E-66	219.56	pfam03391	Nepo coat
+Vpipmotdom_667	VpipCDS_455	1171	1335	9.93E-61	204.871	pfam03688	Nepo coat C
+Vpipmotdom_668	VpipCDS_455	837	927	1.22E-35	130.074	pfam03689	Nepo coat N
+Vpipmotdom_669	VpipCDS_457	39	323	9.41E-96	309.604	pfam01660	Vmethyltransf
+Vpipmotdom_670	VpipCDS_457	1036	1234	8.37E-11	65.7441	cl03049	RdRP 2 superfamily
+Vpipmotdom_671	VpipCDS_457	821	867	0.000577746	39.8524	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_672	VpipCDS_457	638	868	2.29E-58	200.679	pfam01443	Viral helicase1
+Vpipmotdom_673	VpipCDS_458	25	87	0.000198331	40.7463	cl17190	NK superfamily
+Vpipmotdom_674	VpipCDS_458	25	223	4.36E-36	126.721	pfam01443	Viral helicase1
+Vpipmotdom_675	VpipCDS_459	8	72	2.98E-19	75.539	cl03157	Plant vir prot superfamily
+Vpipmotdom_676	VpipCDS_460	54	86	1.35E-05	38.8018	pfam02495	7kD coat
+Vpipmotdom_677	VpipCDS_461	21	158	2.68E-40	134.09	cl02836	Flexi CP superfamily
+Vpipmotdom_678	VpipCDS_462	1168	1609	0	566.889	pfam00978	RdRP 2
+Vpipmotdom_679	VpipCDS_462	50	436	9.60E-61	210.608	pfam01660	Vmethyltransf
+Vpipmotdom_680	VpipCDS_462	830	1085	1.99E-62	212.621	pfam01443	Viral helicase1
+Vpipmotdom_681	VpipCDS_463	50	436	7.48E-61	210.222	pfam01660	Vmethyltransf
+Vpipmotdom_682	VpipCDS_463	830	1085	4.46E-62	210.695	pfam01443	Viral helicase1
+Vpipmotdom_683	VpipCDS_464	26	467	0	557.259	pfam00978	RdRP 2
+Vpipmotdom_684	VpipCDS_465	6	181	1.13E-62	194.925	pfam01107	MP
+Vpipmotdom_685	VpipCDS_467	2	146	2.54E-36	122.737	cl20208	TMV coat superfamily
+Vpipmotdom_686	VpipCDS_468	1	46	2.77E-09	49.6812	pfam01443	Viral helicase1
+Vpipmotdom_687	VpipCDS_469	5	102	8.75E-20	77.0798	cl03157	Plant vir prot superfamily
+Vpipmotdom_688	VpipCDS_470	3	59	1.79E-08	45.3502	pfam02495	7kD coat
+Vpipmotdom_689	VpipCDS_471	26	155	7.67E-49	153.735	cl02836	Flexi CP superfamily
+Vpipmotdom_690	VpipCDS_473	36	176	2.32E-19	80.6465	cl03052	Tymo coat superfamily
+Vpipmotdom_691	VpipCDS_474	249	481	5.57E-104	310.305	cl02961	Poty coat superfamily
+Vpipmotdom_692	VpipCDS_474	1	160	2.82E-24	105.146	cl02808	RT like superfamily
+Vpipmotdom_693	VpipCDS_475	35	277	7.98E-42	143.596	cl02983	Gemini coat superfamily
+Vpipmotdom_694	VpipCDS_476	9	277	7.03E-162	450.253	cl02984	Gemini BL1 superfamily
+Vpipmotdom_695	VpipCDS_477	757	1196	0	614.31	pfam00851	Peptidase C6
+Vpipmotdom_696	VpipCDS_477	3212	3454	2.83E-141	440.503	pfam00767	Poty coat
+Vpipmotdom_697	VpipCDS_477	2428	2645	8.37E-131	410.251	cl24133	Peptidase C4 superfamily
+Vpipmotdom_698	VpipCDS_477	1930	2192	3.25E-124	393.006	cl07169	Poty PP superfamily
+Vpipmotdom_699	VpipCDS_477	2672	3112	1.74E-78	269.241	cl02808	RT like superfamily
+Vpipmotdom_700	VpipCDS_477	569	693	4.65E-44	156.527	pfam13611	Peptidase S76
+Vpipmotdom_701	VpipCDS_477	1792	1911	1.20E-12	68.3288	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_702	VpipCDS_477	1632	1749	3.24E-07	52.0205	cl28899	DEAD-like helicase N superfamily
+Vpipmotdom_703	VpipCDS_477	1615	1749	1.19E-14	75.221	smart00487	DEXDc
+Vpipmotdom_704	VpipCDS_477	1806	1905	2.16E-10	59.1477	smart00490	HELICc
+Vpipmotdom_705	VpipCDS_479	1	262	7.25E-74	232.647	cl02808	RT like superfamily
+Vpipmotdom_706	VpipCDS_480	17	191	3.07E-76	226.643	cl05061	Tenui NS3 superfamily
+Vpipmotdom_707	VpipCDS_481	11	251	7.07E-91	269.985	pfam05733	Tenui N
+Vpipmotdom_708	VpipCDS_482	14	115	3.61E-30	107.69	cl02961	Poty coat superfamily
+Vpipmotdom_709	VpipCDS_483	1299	1738	0	568.43	pfam00978	RdRP 2
+Vpipmotdom_710	VpipCDS_483	67	434	1.82E-52	187.11	pfam01660	Vmethyltransf
+Vpipmotdom_711	VpipCDS_483	1141	1212	0.000212898	41.3932	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_712	VpipCDS_483	960	1215	1.59E-53	187.197	pfam01443	Viral helicase1
+Vpipmotdom_713	VpipCDS_484	67	434	1.99E-53	189.422	pfam01660	Vmethyltransf
+Vpipmotdom_714	VpipCDS_484	1141	1212	0.000149088	41.3932	cl38915	DEAD-like helicase C superfamily
+Vpipmotdom_715	VpipCDS_484	960	1215	1.07E-53	187.197	pfam01443	Viral helicase1
+Vpipmotdom_716	VpipCDS_485	18	197	2.40E-33	119.426	cl03100	MP superfamily
+Vpipmotdom_717	VpipCDS_486	18	103	1.82E-09	51.2649	cl05055	DUF728 superfamily
