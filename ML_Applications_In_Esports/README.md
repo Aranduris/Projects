@@ -1,13 +1,10 @@
-# Projects
-Various Projects Conducted by Ritwik Katiyar
-+ Air Quality In India
-  - Our project aimed to analyze air pollution in India. To predict what the situation would be in the next year (2023). It turns out that winter is the most polluted time of the year. Pollution levels decrease during the summer and monsoon seasons. The lowest contamination levels were recorded in August and September. Air pollution in June 2022 was the highest compared to June in the last five years. Two of our forecast models indicate that there will be no change in the air pollution levels and one of our model indicates that the pollution levels would slightly decrease. Due to such discrepancy we cannot make any strong claims regarding predictions and would possibly need a different machine learning model to archive substantial results.
-
-+ College Applications
-  - Our objective was to conduct data analysis and search for characteristics that are crucial for forecasting the likelihood of admission. Our goal was to forecast both the GRE results and the chance of admission. Our findings indicate that a student’s GRE and cumulative GPA have the biggest effect on their chances of being admitted. Additionally, we were able to create a model that could forecast GRE scores based on TOEFL results, GPA, and if the student had any prior research experience. Subsequently, we developed a model that could predict the likelihood of admission based on research experience, GRE scores, and the quality of letters of recommendation cumulative GPA, and university rankings. 
-
-+ Esports-LeagueofLegends
-  - The project aimed to mimic the tasks of a data analyst hired by an e-sports team for league of legends. Some of such projects included analyzing game data from various events and predicting high value champions as well as players using logistic regression algorithm.
-
-+ Viral-seqs-for-crops-db
-  - An attempt at creating a database by gathering relevant sequence data for viruses that infect various agricultural crops like Rice, Corn, Wheat etc. The gathered information is then displayed to the user via various tables. The motifs and domains of the sequences are also pre analyzed for the user convenience.
+Abstract: The popularity of electronic sports has steadily grown in recent years. Esports can provide financial and social opportunities to players and team owners.
+The games played in e-sports are usually highly accessible to fans. As the popularity
+of e-sports has grown, so too has the amount of data available on the games played.
+This paper explores some of that data in regards to a specific game, League of Legends. Can interesting observations about the current state of the game be drawn
+from the data? Yes. Specifically, combinations of heroes frequently picked together
+can be observed. Can the data highlight ways in which players can improve their
+game? Yes. The data is able to show which features contribute to widely used performance metrics and players can take actions to improve their performance in the
+contributing features and the final metric. Can the winner of future matches be predicted based on their recorded game data? Partially. The dataset examined here is a
+good start to predicting the winner of a match, but more data is needed to successfully model a game as complex as League of Legends. This paper shows evidence of
+how data analytics will play a significant role in future professional e-sports competitions.
