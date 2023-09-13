@@ -9,5 +9,8 @@ Various Projects Conducted by Ritwik Katiyar
 + Esports-LeagueofLegends
   - The project aimed to mimic the tasks of a data analyst hired by an e-sports team for league of legends. Some of such projects included analyzing game data from various events and predicting high value champions as well as players using logistic regression algorithm.
 
++ ML Applications in Esports
+  - This Project aims to apply machine learning algorithms to e-sports data to predict winners, look for ways to improve player performance, and identify trends in the way teams are built. 
+
 + Viral-seqs-for-crops-db
   - An attempt at creating a database by gathering relevant sequence data for viruses that infect various agricultural crops like Rice, Corn, Wheat etc. The gathered information is then displayed to the user via various tables. The motifs and domains of the sequences are also pre analyzed for the user convenience.
