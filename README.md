@@ -10,7 +10,7 @@ identification, with direct implications for drug discovery, personalized medici
 alternative sampling techniques, and leveraging high-performance computing. It suggests exploring the transformative potential of the Transformer algorithm in protein function prediction, with the possibility of integrating a specialized encoder based on amino acid property grouping. This comprehensive exploration aims to contribute to the evolving landscape of computational methodologies in deciphering and predicting protein functions, holding immense promise for advancements in biological research, medicine, and biotechnology
 
 +  Data Analytics for Esports
-  - The project sought to accomplish a to mimic the tasks of a data analyst hired by an e-sports team. Some such objectives included analyzing game data from various events and predicting high value champions as well as players using logistic regression algorithm.
+  - The project sought to accomplish to mimic the tasks of a data analyst hired by an e-sports team. Some such objectives included analyzing game data from various events and predicting high-value champions as well as players utilizing the logistic regression algorithm.
 
 + Likelihood Of College Admissions
   - Our objective was to conduct data analysis and search for characteristics that are crucial for forecasting the likelihood of admission. Our goal was to forecast both the GRE results and the chance of admission. Our findings indicate that a student’s GRE and cumulative GPA have the biggest effect on their chances of being admitted. Additionally, we were able to create a model that could forecast GRE scores based on TOEFL results, GPA, and whether the student had any prior research experience. Subsequently, we developed a model that could predict the likelihood of admission based on research experience, GRE scores, the quality of letters of recommendation cumulative GPA, and university rankings. 
@@ -19,4 +19,4 @@ alternative sampling techniques, and leveraging high-performance computing. It s
   - The project endeavored to apply machine learning and deep learning methods to the Esports-League-of-Legends project to predict winners, look for ways to improve player performance and identify trends.
 
 + Viral Sequences for crops DB
-  - An attempt at creating a database by gathering relevant sequence data for viruses that infect various agricultural crops like Rice, Corn, Wheat etc.
+  - An attempt at creating a database by gathering relevant sequence data for viruses that infect various agricultural crops like Rice, Corn, Wheat, etc.
