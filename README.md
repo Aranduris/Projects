@@ -9,14 +9,14 @@ Projects Conducted by Ritwik Katiyar
 identification, with direct implications for drug discovery, personalized medicine, protein engineering, and bio-manufacturing. The paper presents a detailed analysis of the amino acid property grouping technique's impact on predictive capabilities across different machine learning algorithms. Results indicate that this technique, when integrated with specific algorithms, holds promise in enhancing predictive accuracy. The study concludes by proposing future directions, emphasizing the need for further analyses,
 alternative sampling techniques, and leveraging high-performance computing. It suggests exploring the transformative potential of the Transformer algorithm in protein function prediction, with the possibility of integrating a specialized encoder based on amino acid property grouping. This comprehensive exploration aims to contribute to the evolving landscape of computational methodologies in deciphering and predicting protein functions, holding immense promise for advancements in biological research, medicine, and biotechnology
 
-+ Esports-LeagueofLegends
-  - The project aimed to mimic the tasks of a data analyst hired by an e-sports team for League of Legends. Some of such projects included analyzing game data from various events and predicting high-value champions as well as players using a logistic regression algorithm.
++  Data Analytics for Esports
+  - The project sought to accomplish a to mimic the tasks of a data analyst hired by an e-sports team. Some such objectives included analyzing game data from various events and predicting high value champions as well as players using logistic regression algorithm.
 
 + Likelihood Of College Admissions
   - Our objective was to conduct data analysis and search for characteristics that are crucial for forecasting the likelihood of admission. Our goal was to forecast both the GRE results and the chance of admission. Our findings indicate that a student’s GRE and cumulative GPA have the biggest effect on their chances of being admitted. Additionally, we were able to create a model that could forecast GRE scores based on TOEFL results, GPA, and whether the student had any prior research experience. Subsequently, we developed a model that could predict the likelihood of admission based on research experience, GRE scores, the quality of letters of recommendation cumulative GPA, and university rankings. 
 
-+ ML Applications in Esports
-  - This Project aims to apply machine learning algorithms to e-sports data to predict winners, look for ways to improve player performance, and identify trends in how teams are built. 
++ ML and Deep Learning Applications in Esports
+  - The project endeavored to apply machine learning and deep learning methods to the Esports-League-of-Legends project to predict winners, look for ways to improve player performance and identify trends.
 
-+ Viral sequences for crops DB
-  - An attempt at creating a database by gathering relevant sequence data for viruses that infect various crops like Rice, Corn, Wheat, etc. The gathered information is then displayed to the user via various tables. The motifs and domains of the sequences are also pre-analyzed for the user's convenience.
++ Viral Sequences for crops DB
+  - An attempt at creating a database by gathering relevant sequence data for viruses that infect various agricultural crops like Rice, Corn, Wheat etc.
