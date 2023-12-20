@@ -1,7 +1,7 @@
 # Projects
 Projects Conducted by Ritwik Katiyar
 
-+ Air Quality In India
++ Air Quality Predictions - India
   - Our project aimed to analyze air pollution in India. To predict the situation in the next year (2023). It turns out that winter is the most polluted time of the year. Pollution levels decrease during the summer and monsoon seasons. The lowest contamination levels were recorded in August and September. Air pollution in June 2022 was the highest compared to June in the last five years. Two of our forecast models indicate that there will be no change in the air pollution levels and one of our models indicates that the pollution levels would slightly decrease. Due to such discrepancy, we cannot make any strong claims regarding predictions and would possibly need a different machine learning model to achieve substantial results.
 
 + Application of Amino Acid Property Grouping Technique to Predict Protein Function Using Natural Language Processing Algorithms
