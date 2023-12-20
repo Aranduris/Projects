@@ -1,0 +1,764 @@
+Vpip_infects_01	Saccharum officinarum	Maize dwarf mosaic potyvirus
+Vpip_infects_02	Saccharum officinarum	Sugarcane bacilliform badnavirus
+Vpip_infects_03	Saccharum officinarum	Sugarcane Fiji disease fijivirus
+Vpip_infects_04	Saccharum officinarum	Sugarcane mosaic potyvirus
+Vpip_infects_05	Saccharum officinarum	Sugarcane streak monogeminivirus
+Vpip_infects_06	Zea mays	Barley stripe mosaic hordeivirus
+Vpip_infects_07	Zea mays	Barley yellow dwarf luteovirus
+Vpip_infects_08	Zea mays	Barley yellow striate mosaic cytorhabdovirus
+Vpip_infects_09	Zea mays	Bermuda grass etched-line marafivirus
+Vpip_infects_10	Zea mays	Brome mosaic bromovirus
+Vpip_infects_11	Zea mays	Cassia yellow blotch bromovirus
+Vpip_infects_12	Zea mays	Cereal northern mosaic cytorhabdovirus
+Vpip_infects_13	Zea mays	Cowpea chlorotic mottle bromovirus
+Vpip_infects_14	Zea mays	Foxtail mosaic potexvirus
+Vpip_infects_15	Zea mays	Heracleum latent trichovirus
+Vpip_infects_16	Zea mays	Johnsongrass mosaic potyvirus
+Vpip_infects_17	Zea mays	Maize chlorotic dwarf waikavirus
+Vpip_infects_18	Zea mays	Maize chlorotic mottle machlomovirus
+Vpip_infects_19	Zea mays	Maize dwarf mosaic potyvirus
+Vpip_infects_20	Zea mays	Maize Iranian mosaic nucleorhabdovirus
+Vpip_infects_21	Zea mays	Maize mosaic nucleorhabdovirus
+Vpip_infects_22	Zea mays	Maize rayado fino marafivirus
+Vpip_infects_23	Zea mays	Maize rough dwarf fijivirus
+Vpip_infects_24	Zea mays	Maize stripe tenuivirus
+Vpip_infects_25	Zea mays	Maize white line mosaic virus
+Vpip_infects_26	Zea mays	Oat sterile dwarf fijivirus
+Vpip_infects_27	Zea mays	Pepper veinal mottle potyvirus
+Vpip_infects_28	Zea mays	Poa semilatent hordeivirus
+Vpip_infects_29	Zea mays	Rice ragged stunt oryzavirus
+Vpip_infects_30	Zea mays	Rice stripe tenuivirus
+Vpip_infects_31	Zea mays	Rottboellia yellow mottle sobemovirus
+Vpip_infects_32	Zea mays	Sorghum chlorotic spot furovirus
+Vpip_infects_33	Zea mays	Sorghum stunt mosaic nucleorhabdovirus
+Vpip_infects_34	Zea mays	Sugarcane Fiji disease fijivirus
+Vpip_infects_35	Zea mays	Sugarcane mosaic potyvirus
+Vpip_infects_36	Zea mays	Sugarcane streak monogeminivirus
+Vpip_infects_37	Zea mays	Tobacco necrosis necrovirus
+Vpip_infects_38	Zea mays	Tobacco streak ilarvirus
+Vpip_infects_39	Zea mays	Wheat streak mosaic rymovirus
+Vpip_infects_40	Zea mays ssp. mays	Maize rayado fino marafivirus
+Vpip_infects_41	Zea mays ssp. mexicana	Maize rayado fino marafivirus
+Vpip_infects_42	Oryza australiensis	Rice tungro bacilliform badnavirus
+Vpip_infects_43	Oryza australiensis	Rice tungro spherical waikavirus
+Vpip_infects_44	Oryza barthii	Rice tungro bacilliform badnavirus
+Vpip_infects_45	Oryza barthii	Rice tungro spherical waikavirus
+Vpip_infects_46	Oryza barthii	Rice yellow mottle sobemovirus
+Vpip_infects_47	Oryza rufipogon	Rice dwarf phytoreovirus
+Vpip_infects_48	Oryza glaberrima	Rice tungro bacilliform badnavirus
+Vpip_infects_49	Oryza glaberrima	Rice tungro spherical waikavirus
+Vpip_infects_50	Oryza latifolia	Rice ragged stunt oryzavirus
+Vpip_infects_51	Oryza latifolia	Rice tungro bacilliform badnavirus
+Vpip_infects_52	Oryza latifolia	Rice tungro spherical waikavirus
+Vpip_infects_53	Oryza longistaminata	Rice tungro bacilliform badnavirus
+Vpip_infects_54	Oryza longistaminata	Rice tungro spherical waikavirus
+Vpip_infects_55	Oryza longistaminata	Rice yellow mottle sobemovirus
+Vpip_infects_56	Oryza nivara	Rice ragged stunt oryzavirus
+Vpip_infects_57	Oryza nivara	Rice tungro bacilliform badnavirus
+Vpip_infects_58	Oryza nivara	Rice tungro spherical waikavirus
+Vpip_infects_59	Oryza perennis	Rice tungro bacilliform badnavirus
+Vpip_infects_60	Oryza perennis	Rice tungro spherical waikavirus
+Vpip_infects_61	Oryza punctata	Rice grassy stunt tenuivirus
+Vpip_infects_62	Oryza punctata	Rice yellow mottle sobemovirus
+Vpip_infects_63	Oryza sativa	Barley stripe mosaic hordeivirus
+Vpip_infects_64	Oryza sativa	Barley yellow dwarf luteovirus
+Vpip_infects_65	Oryza sativa	Cymbidium mosaic potexvirus
+Vpip_infects_66	Oryza sativa	Foxtail mosaic potexvirus
+Vpip_infects_67	Oryza sativa	Maize dwarf mosaic potyvirus
+Vpip_infects_68	Oryza sativa	Maize rough dwarf fijivirus
+Vpip_infects_69	Oryza sativa	Rice dwarf phytoreovirus
+Vpip_infects_70	Oryza sativa	Rice gall dwarf phytoreovirus
+Vpip_infects_71	Oryza sativa	Rice grassy stunt tenuivirus
+Vpip_infects_72	Oryza sativa	Rice hoja blanca tenuivirus
+Vpip_infects_73	Oryza sativa	Rice necrosis mosaic bymovirus
+Vpip_infects_74	Oryza sativa	Rice ragged stunt oryzavirus
+Vpip_infects_75	Oryza sativa	Rice stripe necrosis furovirus
+Vpip_infects_76	Oryza sativa	Rice stripe tenuivirus
+Vpip_infects_77	Oryza sativa	Rice transitory yellowing nucleorhabdovirus
+Vpip_infects_78	Oryza sativa	Rice tungro bacilliform badnavirus
+Vpip_infects_79	Oryza sativa	Rice tungro spherical waikavirus
+Vpip_infects_80	Oryza sativa	Rice yellow mottle sobemovirus
+Vpip_infects_81	Oryza sativa	Ryegrass mosaic rymovirus
+Vpip_infects_82	Oryza sativa	Sugarcane mosaic potyvirus
+Vpip_infects_83	Oryza sativa var. japonica	Rice stripe tenuivirus
+Vpip_infects_84	Oryza sativa var. japonica	Rice transitory yellowing nucleorhabdovirus
+Vpip_infects_85	Glycine clandestina	Glycine mosaic comovirus
+Vpip_infects_86	Glycine max	Abutilon mosaic bigeminivirus
+Vpip_infects_87	Glycine max	Alfalfa mosaic alfamovirus
+Vpip_infects_88	Glycine max	Arabis mosaic nepovirus
+Vpip_infects_89	Glycine max	Asparagus 2 ilarvirus
+Vpip_infects_90	Glycine max	Asparagus 3 potexvirus
+Vpip_infects_91	Glycine max	Bean calico mosaic bigeminivirus
+Vpip_infects_92	Glycine max	Bean common mosaic potyvirus
+Vpip_infects_93	Glycine max	Bean golden mosaic bigeminivirus
+Vpip_infects_94	Glycine max	Bean leaf roll luteovirus
+Vpip_infects_95	Glycine max	Bean pod mottle comovirus
+Vpip_infects_96	Glycine max	Bean southern mosaic sobemovirus
+Vpip_infects_97	Glycine max	Bean yellow mosaic potyvirus
+Vpip_infects_98	Glycine max	Beet western yellows luteovirus
+Vpip_infects_99	Glycine max	Broad bean mottle bromovirus
+Vpip_infects_100	Glycine max	Broad bean stain comovirus
+Vpip_infects_101	Glycine max	Broad bean wilt fabavirus
+Vpip_infects_102	Glycine max	Cassia yellow blotch bromovirus
+Vpip_infects_103	Glycine max	Cassia yellow spot potyvirus
+Vpip_infects_104	Glycine max	Cherry leaf roll nepovirus
+Vpip_infects_105	Glycine max	Clitoria yellow vein tymovirus
+Vpip_infects_106	Glycine max	Clover yellow mosaic potexvirus
+Vpip_infects_107	Glycine max	Clover yellow vein potyvirus
+Vpip_infects_108	Glycine max	Cole latent carlavirus
+Vpip_infects_109	Glycine max	Cotton leaf crumple bigeminivirus
+Vpip_infects_110	Glycine max	Cowpea chlorotic mottle bromovirus
+Vpip_infects_111	Glycine max	Cowpea mild mottle carlavirus
+Vpip_infects_112	Glycine max	Cowpea mosaic comovirus
+Vpip_infects_113	Glycine max	Cowpea mottle carmovirus
+Vpip_infects_114	Glycine max	Cowpea severe mosaic comovirus
+Vpip_infects_115	Glycine max	Cowpea stunt luteovirus
+Vpip_infects_116	Glycine max	Crotalaria spectabilis yellow mosaic potexvirus
+Vpip_infects_117	Glycine max	Cucumber mosaic cucumovirus
+Vpip_infects_118	Glycine max	Cymbidium ringspot tombusvirus
+Vpip_infects_119	Glycine max	Dogwood mosaic nepovirus
+Vpip_infects_120	Glycine max	Eucharis mottle nepovirus
+Vpip_infects_121	Glycine max	Foxtail mosaic potexvirus
+Vpip_infects_122	Glycine max	Galinsoga mosaic carmovirus
+Vpip_infects_123	Glycine max	Glycine mosaic comovirus
+Vpip_infects_124	Glycine max	Glycine mottle carmovirus
+Vpip_infects_125	Glycine max	Grapevine fanleaf nepovirus
+Vpip_infects_126	Glycine max	Groundnut rosette umbravirus
+Vpip_infects_127	Glycine max	Horsegram yellow mosaic bigeminivirus
+Vpip_infects_128	Glycine max	Kennedya Y potyvirus
+Vpip_infects_129	Glycine max	Kennedya yellow mosaic tymovirus
+Vpip_infects_130	Glycine max	Milk vetch dwarf nanavirus
+Vpip_infects_131	Glycine max	Mulberry ringspot nepovirus
+Vpip_infects_132	Glycine max	Mung bean yellow mosaic bigeminivirus
+Vpip_infects_133	Glycine max	Narcissus mosaic potexvirus
+Vpip_infects_134	Glycine max	Ononis yellow mosaic tymovirus
+Vpip_infects_135	Glycine max	Passionfruit woodiness potyvirus
+Vpip_infects_136	Glycine max	Pea early browning tobravirus
+Vpip_infects_137	Glycine max	Pea mild mosaic comovirus
+Vpip_infects_138	Glycine max	Pea streak carlavirus
+Vpip_infects_139	Glycine max	Peanut chlorotic streak caulimovirus
+Vpip_infects_140	Glycine max	Peanut mottle potyvirus
+Vpip_infects_141	Glycine max	Peanut stunt cucumovirus
+Vpip_infects_142	Glycine max	Peanut top paralysis potyvirus
+Vpip_infects_143	Glycine max	Peanut yellow spot tospovirus
+Vpip_infects_144	Glycine max	Pelargonium zonate spot ourmiavirus
+Vpip_infects_145	Glycine max	Pepper veinal mottle potyvirus
+Vpip_infects_146	Glycine max	Plantago mottle tymovirus
+Vpip_infects_147	Glycine max	Poplar mosaic carlavirus
+Vpip_infects_148	Glycine max	Quail pea mosaic comovirus
+Vpip_infects_149	Glycine max	Red clover mottle comovirus
+Vpip_infects_150	Glycine max	Red clover necrotic mosaic dianthovirus
+Vpip_infects_151	Glycine max	Rhynchosia mosaic bigeminivirus
+Vpip_infects_152	Glycine max	Soybean chlorotic mottle caulimovirus
+Vpip_infects_153	Glycine max	Soybean crinkle leaf bigeminivirus
+Vpip_infects_154	Glycine max	Soybean dwarf luteovirus
+Vpip_infects_155	Glycine max	Soybean Indonesian dwarf luteovirus
+Vpip_infects_156	Glycine max	Soybean mild mosaic virus
+Vpip_infects_157	Glycine max	Soybean mosaic potyvirus
+Vpip_infects_158	Glycine max	Soybean rhabdovirus
+Vpip_infects_159	Glycine max	Soybean spherical virus
+Vpip_infects_160	Glycine max	Soybean yellow vein virus
+Vpip_infects_161	Glycine max	Soybean Z potyvirus
+Vpip_infects_162	Glycine max	Spring beauty latent bromovirus
+Vpip_infects_163	Glycine max	Subterranean clover red leaf luteovirus
+Vpip_infects_164	Glycine max	Sunflower ringspot ilarvirus
+Vpip_infects_165	Glycine max	Sweet potato ringspot nepovirus
+Vpip_infects_166	Glycine max	Swordbean distortion mosaic potyvirus
+Vpip_infects_167	Glycine max	Tephrosia symptomless carmovirus
+Vpip_infects_168	Glycine max	Tobacco necrosis necrovirus
+Vpip_infects_169	Glycine max	Tobacco rattle tobravirus
+Vpip_infects_170	Glycine max	Tobacco streak ilarvirus
+Vpip_infects_171	Glycine max	Tobacco stunt varicosavirus
+Vpip_infects_172	Glycine max	Tobacco yellow vein umbravirus
+Vpip_infects_173	Glycine max	Tomato black ring nepovirus
+Vpip_infects_174	Glycine max	Tomato spotted wilt tospovirus
+Vpip_infects_175	Glycine max	Turnip yellow mosaic tymovirus
+Vpip_infects_176	Glycine max	Watermelon mosaic 2 potyvirus
+Vpip_infects_177	Glycine max	White clover mosaic potexvirus
+Vpip_infects_178	Glycine max	Wisteria vein mosaic potyvirus
+Vpip_infects_179	Glycine soja	Glycine mosaic comovirus
+Vpip_infects_180	Glycine soja	Glycine mottle carmovirus
+Vpip_infects_181	Glycine soja	Soybean mosaic potyvirus
+Vpip_infects_182	Glycine tabacina	Glycine mosaic comovirus
+Vpip_infects_183	Glycine tabacina	Peanut mottle potyvirus
+Vpip_infects_184	Glycine tomentella	Glycine mottle carmovirus
+Vpip_infects_185	Glycine wightii	Soybean mosaic potyvirus
+Vpip_infects_186	Triticum aestivum	Barley stripe mosaic hordeivirus
+Vpip_infects_187	Triticum aestivum	Barley yellow dwarf luteovirus
+Vpip_infects_188	Triticum aestivum	Barley yellow striate mosaic cytorhabdovirus
+Vpip_infects_189	Triticum aestivum	Brome streak mosaic rymovirus
+Vpip_infects_190	Triticum aestivum	Cereal northern mosaic cytorhabdovirus
+Vpip_infects_191	Triticum aestivum	Cocksfoot mottle sobemovirus
+Vpip_infects_192	Triticum aestivum	Foxtail mosaic potexvirus
+Vpip_infects_193	Triticum aestivum	Hordeum mosaic rymovirus
+Vpip_infects_194	Triticum aestivum	Maize chlorotic dwarf waikavirus
+Vpip_infects_195	Triticum aestivum	Maize chlorotic mottle machlomovirus
+Vpip_infects_196	Triticum aestivum	Maize rough dwarf fijivirus
+Vpip_infects_197	Triticum aestivum	Oat blue dwarf marafivirus
+Vpip_infects_198	Triticum aestivum	Oat mosaic bymovirus
+Vpip_infects_199	Triticum aestivum	Oat sterile dwarf fijivirus
+Vpip_infects_200	Triticum aestivum	Poa semilatent hordeivirus
+Vpip_infects_201	Triticum aestivum	Ribgrass mosaic tobamovirus
+Vpip_infects_202	Triticum aestivum	Rice dwarf phytoreovirus
+Vpip_infects_203	Triticum aestivum	Rice gall dwarf phytoreovirus
+Vpip_infects_204	Triticum aestivum	Rice hoja blanca tenuivirus
+Vpip_infects_205	Triticum aestivum	Rice stripe tenuivirus
+Vpip_infects_206	Triticum aestivum	Ryegrass mosaic rymovirus
+Vpip_infects_207	Triticum aestivum	Ryegrass mottle sobemovirus
+Vpip_infects_208	Triticum aestivum	Sorghum stunt mosaic nucleorhabdovirus
+Vpip_infects_209	Triticum aestivum	Tobacco necrosis necrovirus
+Vpip_infects_210	Triticum aestivum	Wheat chlorotic spot rhabdovirus
+Vpip_infects_211	Triticum aestivum	Wheat European striate mosaic tenuivirus
+Vpip_infects_212	Triticum aestivum	Wheat Iranian stripe tenuivirus
+Vpip_infects_213	Triticum aestivum	Wheat soil-borne mosaic furovirus
+Vpip_infects_214	Triticum aestivum	Wheat spindle streak mosaic bymovirus
+Vpip_infects_215	Triticum aestivum	Wheat streak mosaic rymovirus
+Vpip_infects_216	Triticum aestivum	Wheat yellow leaf closterovirus
+Vpip_infects_217	Triticum aestivum	Wheat yellow mosaic bymovirus
+Vpip_infects_218	Triticum aestivum	Winter wheat Russian mosaic cytorhabdovirus
+Vpip_infects_219	Triticum compactum	Barley yellow striate mosaic cytorhabdovirus
+Vpip_infects_220	Triticum durum	Barley stripe mosaic hordeivirus
+Vpip_infects_221	Triticum durum	Barley yellow dwarf luteovirus
+Vpip_infects_222	Triticum durum	Barley yellow striate mosaic cytorhabdovirus
+Vpip_infects_223	Triticum durum	Bermuda grass etched-line marafivirus
+Vpip_infects_224	Triticum durum	Foxtail mosaic potexvirus
+Vpip_infects_225	Triticum durum	Hordeum mosaic rymovirus
+Vpip_infects_226	Triticum durum	Oat blue dwarf marafivirus
+Vpip_infects_227	Triticum durum	Poa semilatent hordeivirus
+Vpip_infects_228	Triticum durum	Wheat spindle streak mosaic bymovirus
+Vpip_infects_229	Cucumis melo	Abutilon mosaic bigeminivirus
+Vpip_infects_230	Cucumis melo	Alfalfa mosaic alfamovirus
+Vpip_infects_231	Cucumis melo	Apple mosaic ilarvirus
+Vpip_infects_232	Cucumis melo	Arabis mosaic nepovirus
+Vpip_infects_233	Cucumis melo	Beet pseudo-yellows closterovirus
+Vpip_infects_234	Cucumis melo	Cacao yellow mosaic tymovirus
+Vpip_infects_235	Cucumis melo	Cherry leaf roll nepovirus
+Vpip_infects_236	Cucumis melo	Cucumber mosaic cucumovirus
+Vpip_infects_237	Cucumis melo	Humulus japonicus ilarvirus
+Vpip_infects_238	Cucumis melo	Kyuri green mottle mosaic tobamovirus
+Vpip_infects_239	Cucumis melo	Lettuce infectious yellows closterovirus
+Vpip_infects_240	Cucumis melo	Melon leaf curl bigeminivirus
+Vpip_infects_241	Cucumis melo	Melon necrotic spot carmovirus
+Vpip_infects_242	Cucumis melo	Melon Ourmia ourmiavirus
+Vpip_infects_243	Cucumis melo	Melon vein-banding mosaic potyvirus
+Vpip_infects_244	Cucumis melo	Papaya ringspot potyvirus
+Vpip_infects_245	Cucumis melo	Pea streak carlavirus
+Vpip_infects_246	Cucumis melo	Peanut stunt cucumovirus
+Vpip_infects_247	Cucumis melo	Pepper Moroccan tombusvirus
+Vpip_infects_248	Cucumis melo	Pepper veinal mottle potyvirus
+Vpip_infects_249	Cucumis melo	Prune dwarf ilarvirus
+Vpip_infects_250	Cucumis melo	Squash mosaic comovirus
+Vpip_infects_251	Cucumis melo	Strawberry latent ringspot nepovirus
+Vpip_infects_252	Cucumis melo	Telfairia mosaic potyvirus
+Vpip_infects_253	Cucumis melo	Tobacco mosaic tobamovirus
+Vpip_infects_254	Cucumis melo	Tobacco necrosis necrovirus
+Vpip_infects_255	Cucumis melo	Tobacco rattle tobravirus
+Vpip_infects_256	Cucumis melo	Tobacco streak ilarvirus
+Vpip_infects_257	Cucumis melo	Tomato black ring nepovirus
+Vpip_infects_258	Cucumis melo	Watermelon Moroccan mosaic potyvirus
+Vpip_infects_259	Cucumis melo	Watermelon mosaic 1 potyvirus
+Vpip_infects_260	Cucumis melo	Watermelon mosaic 2 potyvirus
+Vpip_infects_261	Cucumis melo	Wild cucumber mosaic tymovirus
+Vpip_infects_262	Cucumis melo	Zucchini yellow fleck potyvirus
+Vpip_infects_263	Cucumis melo	Zucchini yellow mosaic potyvirus
+Vpip_infects_264	Cucumis metuliferus	Melon Ourmia ourmiavirus
+Vpip_infects_265	Cucumis metuliferus	Papaya ringspot potyvirus
+Vpip_infects_266	Cucumis metuliferus	Squash mosaic comovirus
+Vpip_infects_267	Cucumis metuliferus	Watermelon mosaic 1 potyvirus
+Vpip_infects_268	Cucumis metuliferus	Watermelon mosaic 2 potyvirus
+Vpip_infects_269	Cucumis metuliferus	Zucchini yellow mosaic potyvirus
+Vpip_infects_270	Cucumis sativus	Abutilon mosaic bigeminivirus
+Vpip_infects_271	Cucumis sativus	Alfalfa mosaic alfamovirus
+Vpip_infects_272	Cucumis sativus	Apple mosaic ilarvirus
+Vpip_infects_273	Cucumis sativus	Apple stem pitting virus
+Vpip_infects_274	Cucumis sativus	Arabis mosaic nepovirus
+Vpip_infects_275	Cucumis sativus	Arracacha A nepovirus
+Vpip_infects_276	Cucumis sativus	Artichoke Italian latent nepovirus
+Vpip_infects_277	Cucumis sativus	Artichoke mottled crinkle tombusvirus
+Vpip_infects_278	Cucumis sativus	Artichoke yellow ringspot nepovirus
+Vpip_infects_279	Cucumis sativus	Asparagus 2 ilarvirus
+Vpip_infects_280	Cucumis sativus	Beet mild yellowing luteovirus
+Vpip_infects_281	Cucumis sativus	Beet pseudo-yellows closterovirus
+Vpip_infects_282	Cucumis sativus	Beet western yellows luteovirus
+Vpip_infects_283	Cucumis sativus	Blueberry leaf mottle nepovirus
+Vpip_infects_284	Cucumis sativus	Broad bean wilt fabavirus
+Vpip_infects_285	Cucumis sativus	Carnation mottle carmovirus
+Vpip_infects_286	Cucumis sativus	Carnation ringspot dianthovirus
+Vpip_infects_287	Cucumis sativus	Cassava green mottle nepovirus
+Vpip_infects_288	Cucumis sativus	Cassia yellow blotch bromovirus
+Vpip_infects_289	Cucumis sativus	Cherry leaf roll nepovirus
+Vpip_infects_290	Cucumis sativus	Cherry rasp leaf nepovirus
+Vpip_infects_291	Cucumis sativus	Citrus ringspot virus
+Vpip_infects_292	Cucumis sativus	Clover yellow mosaic potexvirus
+Vpip_infects_293	Cucumis sativus	Clover yellow vein potyvirus
+Vpip_infects_294	Cucumis sativus	Cowpea chlorotic mottle bromovirus
+Vpip_infects_295	Cucumis sativus	Cucumber green mottle mosaic tobamovirus
+Vpip_infects_296	Cucumis sativus	Cucumber mosaic cucumovirus
+Vpip_infects_297	Cucumis sativus	Cucumber necrosis tombusvirus
+Vpip_infects_298	Cucumis sativus	Cucumber soil-borne carmovirus
+Vpip_infects_299	Cucumis sativus	Cucumber toad-skin rhabdovirus
+Vpip_infects_300	Cucumis sativus	Cucumber vein yellowing virus
+Vpip_infects_301	Cucumis sativus	Cymbidium mosaic potexvirus
+Vpip_infects_302	Cucumis sativus	Cymbidium ringspot tombusvirus
+Vpip_infects_303	Cucumis sativus	Dandelion yellow mosaic sequivirus
+Vpip_infects_304	Cucumis sativus	Dogwood mosaic nepovirus
+Vpip_infects_305	Cucumis sativus	Eggplant mosaic tymovirus
+Vpip_infects_306	Cucumis sativus	Eggplant mottled crinkle tombusvirus
+Vpip_infects_307	Cucumis sativus	Elderberry latent carmovirus
+Vpip_infects_308	Cucumis sativus	Elm mottle ilarvirus
+Vpip_infects_309	Cucumis sativus	Epirus cherry ourmiavirus
+Vpip_infects_310	Cucumis sativus	Erysimum latent tymovirus
+Vpip_infects_311	Cucumis sativus	Eucharis mottle nepovirus
+Vpip_infects_312	Cucumis sativus	Foxtail mosaic potexvirus
+Vpip_infects_313	Cucumis sativus	Fragaria chiloensis ilarvirus
+Vpip_infects_314	Cucumis sativus	Grapevine Bulgarian latent nepovirus
+Vpip_infects_315	Cucumis sativus	Grapevine chrome mosaic nepovirus
+Vpip_infects_316	Cucumis sativus	Grapevine fanleaf nepovirus
+Vpip_infects_317	Cucumis sativus	Grapevine line pattern ilarvirus
+Vpip_infects_318	Cucumis sativus	Heracleum latent trichovirus
+Vpip_infects_319	Cucumis sativus	Honeysuckle latent carlavirus
+Vpip_infects_320	Cucumis sativus	Humulus japonicus ilarvirus
+Vpip_infects_321	Cucumis sativus	Hypochoeris mosaic furovirus
+Vpip_infects_322	Cucumis sativus	Kalanchoe isometric virus
+Vpip_infects_323	Cucumis sativus	Kyuri green mottle mosaic tobamovirus
+Vpip_infects_324	Cucumis sativus	Lettuce infectious yellows closterovirus
+Vpip_infects_325	Cucumis sativus	Lisianthus necrosis necrovirus
+Vpip_infects_326	Cucumis sativus	Lucerne Australian latent nepovirus
+Vpip_infects_327	Cucumis sativus	Maracuja mosaic tobamovirus
+Vpip_infects_328	Cucumis sativus	Melandrium yellow fleck bromovirus
+Vpip_infects_329	Cucumis sativus	Melon leaf curl bigeminivirus
+Vpip_infects_330	Cucumis sativus	Melon necrotic spot carmovirus
+Vpip_infects_331	Cucumis sativus	Melon Ourmia ourmiavirus
+Vpip_infects_332	Cucumis sativus	Okra mosaic tymovirus
+Vpip_infects_333	Cucumis sativus	Olive latent ringspot nepovirus
+Vpip_infects_334	Cucumis sativus	Olive latent 1 sobemovirus
+Vpip_infects_335	Cucumis sativus	Papaya ringspot potyvirus
+Vpip_infects_336	Cucumis sativus	Parsnip leafcurl virus
+Vpip_infects_337	Cucumis sativus	Parsnip yellow fleck sequivirus
+Vpip_infects_338	Cucumis sativus	Passionfruit woodiness potyvirus
+Vpip_infects_339	Cucumis sativus	Pea early browning tobravirus
+Vpip_infects_340	Cucumis sativus	Pea streak carlavirus
+Vpip_infects_341	Cucumis sativus	Peanut mottle potyvirus
+Vpip_infects_342	Cucumis sativus	Peanut stunt cucumovirus
+Vpip_infects_343	Cucumis sativus	Pelargonium zonate spot ourmiavirus
+Vpip_infects_344	Cucumis sativus	Pepino mosaic potexvirus
+Vpip_infects_345	Cucumis sativus	Pepper Moroccan tombusvirus
+Vpip_infects_346	Cucumis sativus	Pepper ringspot tobravirus
+Vpip_infects_347	Cucumis sativus	Pepper veinal mottle potyvirus
+Vpip_infects_348	Cucumis sativus	Plantain 8 carlavirus
+Vpip_infects_349	Cucumis sativus	Plum American line pattern ilarvirus
+Vpip_infects_350	Cucumis sativus	Poplar mosaic carlavirus
+Vpip_infects_351	Cucumis sativus	Potato Andean latent tymovirus
+Vpip_infects_352	Cucumis sativus	Potato black ringspot nepovirus
+Vpip_infects_353	Cucumis sativus	Prune dwarf ilarvirus
+Vpip_infects_354	Cucumis sativus	Prunus necrotic ringspot ilarvirus
+Vpip_infects_355	Cucumis sativus	Radish mosaic comovirus
+Vpip_infects_356	Cucumis sativus	Raspberry ringspot nepovirus
+Vpip_infects_357	Cucumis sativus	Red clover necrotic mosaic dianthovirus
+Vpip_infects_358	Cucumis sativus	Ribgrass mosaic tobamovirus
+Vpip_infects_359	Cucumis sativus	Rose tobamovirus
+Vpip_infects_360	Cucumis sativus	Rubus Chinese seed-borne nepovirus
+Vpip_infects_361	Cucumis sativus	Silene X potexvirus
+Vpip_infects_362	Cucumis sativus	Sowbane mosaic sobemovirus
+Vpip_infects_363	Cucumis sativus	Soybean mild mosaic virus
+Vpip_infects_364	Cucumis sativus	Spinach latent ilarvirus
+Vpip_infects_365	Cucumis sativus	Spring beauty latent bromovirus
+Vpip_infects_366	Cucumis sativus	Squash mosaic comovirus
+Vpip_infects_367	Cucumis sativus	Strawberry latent ringspot nepovirus
+Vpip_infects_368	Cucumis sativus	Sweet clover necrotic mosaic dianthovirus
+Vpip_infects_369	Cucumis sativus	Sweet potato ringspot nepovirus
+Vpip_infects_370	Cucumis sativus	Telfairia mosaic potyvirus
+Vpip_infects_371	Cucumis sativus	Tobacco mosaic tobamovirus
+Vpip_infects_372	Cucumis sativus	Tobacco necrosis necrovirus
+Vpip_infects_373	Cucumis sativus	Tobacco rattle tobravirus
+Vpip_infects_374	Cucumis sativus	Tobacco streak ilarvirus
+Vpip_infects_375	Cucumis sativus	Tobacco stunt varicosavirus
+Vpip_infects_376	Cucumis sativus	Tomato aspermy cucumovirus
+Vpip_infects_377	Cucumis sativus	Tomato black ring nepovirus
+Vpip_infects_378	Cucumis sativus	Tomato bushy stunt tombusvirus
+Vpip_infects_379	Cucumis sativus	Tomato spotted wilt tospovirus
+Vpip_infects_380	Cucumis sativus	Tulip X potexvirus
+Vpip_infects_381	Cucumis sativus	Watermelon Moroccan mosaic potyvirus
+Vpip_infects_382	Cucumis sativus	Watermelon mosaic 1 potyvirus
+Vpip_infects_383	Cucumis sativus	Watermelon mosaic 2 potyvirus
+Vpip_infects_384	Cucumis sativus	White clover mosaic potexvirus
+Vpip_infects_385	Cucumis sativus	Wild cucumber mosaic tymovirus
+Vpip_infects_386	Cucumis sativus	Zucchini yellow fleck potyvirus
+Vpip_infects_387	Cucumis sativus	Zucchini yellow mosaic potyvirus
+Vpip_infects_388	Solanum acaule	Heracleum latent trichovirus
+Vpip_infects_389	Solanum capsicastrum	Tomato spotted wilt tospovirus
+Vpip_infects_390	Solanum carolinense	Peach rosette mosaic nepovirus
+Vpip_infects_391	Solanum carolinense	Tobacco vein mottling potyvirus
+Vpip_infects_392	Solanum chacoense	Potato Andean latent tymovirus
+Vpip_infects_393	Solanum chacoense	Potato Y potyvirus
+Vpip_infects_394	Solanum commersonii	Heracleum latent trichovirus
+Vpip_infects_395	Solanum demissum	Alfalfa mosaic alfamovirus
+Vpip_infects_396	Solanum demissum	Arracacha A nepovirus
+Vpip_infects_397	Solanum demissum	Cucumber mosaic cucumovirus
+Vpip_infects_398	Solanum demissum	Heracleum latent trichovirus
+Vpip_infects_399	Solanum demissum	Pepino mosaic potexvirus
+Vpip_infects_400	Solanum demissum	Potato A potyvirus
+Vpip_infects_401	Solanum demissum	Potato Andean latent tymovirus
+Vpip_infects_402	Solanum demissum	Potato Andean mottle comovirus
+Vpip_infects_403	Solanum demissum	Potato M carlavirus
+Vpip_infects_404	Solanum demissum	Potato Y potyvirus
+Vpip_infects_405	Solanum demissum	Red clover necrotic mosaic dianthovirus
+Vpip_infects_406	Solanum demissum	Tobacco streak ilarvirus
+Vpip_infects_407	Solanum demissum	Zygocactus potexvirus
+Vpip_infects_408	Solanum demissum x S. tuberosum	Datura Colombian potyvirus
+Vpip_infects_409	Solanum demissum x S. tuberosum	Henbane mosaic potyvirus
+Vpip_infects_410	Solanum demissum x S. tuberosum	Pepino mosaic potexvirus
+Vpip_infects_411	Solanum demissum x S. tuberosum	Potato A potyvirus
+Vpip_infects_412	Solanum demissum x S. tuberosum	Potato Andean mottle comovirus
+Vpip_infects_413	Solanum demissum x S. tuberosum	Potato M carlavirus
+Vpip_infects_414	Solanum demissum x S. tuberosum	Potato Y potyvirus
+Vpip_infects_415	Solanum demissum x S. tuberosum	Tobacco streak ilarvirus
+Vpip_infects_416	Solanum dulcamara	Beet pseudo-yellows closterovirus
+Vpip_infects_417	Solanum dulcamara	Dulcamara mottle tymovirus
+Vpip_infects_418	Solanum giganteum	Tomato mosaic tobamovirus
+Vpip_infects_419	Solanum integrifolium	Erysimum latent tymovirus
+Vpip_infects_420	Solanum integrifolium	Pepper veinal mottle potyvirus
+Vpip_infects_421	Solanum jasminoides	Datura necrosis potyvirus
+Vpip_infects_422	Solanum jasminoides	Datura shoestring potyvirus
+Vpip_infects_423	Solanum melongena	Alfalfa mosaic alfamovirus
+Vpip_infects_424	Solanum melongena	Clover yellow mosaic potexvirus
+Vpip_infects_425	Solanum melongena	Cole latent carlavirus
+Vpip_infects_426	Solanum melongena	Cucumber mosaic cucumovirus
+Vpip_infects_427	Solanum melongena	Datura yellow vein nucleorhabdovirus
+Vpip_infects_428	Solanum melongena	Eggplant mosaic tymovirus
+Vpip_infects_429	Solanum melongena	Eggplant mottled crinkle tombusvirus
+Vpip_infects_430	Solanum melongena	Eggplant mottled dwarf nucleorhabdovirus
+Vpip_infects_431	Solanum melongena	Heracleum latent trichovirus
+Vpip_infects_432	Solanum melongena	Okra mosaic tymovirus
+Vpip_infects_433	Solanum melongena	Paprika mild mottle tobamovirus
+Vpip_infects_434	Solanum melongena	Peanut stunt cucumovirus
+Vpip_infects_435	Solanum melongena	Pepper Indian mottle potyvirus
+Vpip_infects_436	Solanum melongena	Pepper Moroccan tombusvirus
+Vpip_infects_437	Solanum melongena	Pepper veinal mottle potyvirus
+Vpip_infects_438	Solanum melongena	Potato Andean latent tymovirus
+Vpip_infects_439	Solanum melongena	Potato M carlavirus
+Vpip_infects_440	Solanum melongena	Ribgrass mosaic tobamovirus
+Vpip_infects_441	Solanum melongena	Solanum nodiflorum mottle sobemovirus
+Vpip_infects_442	Solanum melongena	Sunn-hemp mosaic tobamovirus
+Vpip_infects_443	Solanum melongena	Tobacco leaf curl bigeminivirus
+Vpip_infects_444	Solanum melongena	Tobacco rattle tobravirus
+Vpip_infects_445	Solanum melongena	Tobacco streak ilarvirus
+Vpip_infects_446	Solanum melongena	Tomato Australian leafcurl bigeminivirus
+Vpip_infects_447	Solanum melongena	Tomato bushy stunt tombusvirus
+Vpip_infects_448	Solanum melongena	Tomato mosaic tobamovirus
+Vpip_infects_449	Solanum melongena	Tomato pseudo curly top hybrigeminivirus
+Vpip_infects_450	Solanum melongena	Tomato spotted wilt tospovirus
+Vpip_infects_451	Solanum melongena	Tomato top necrosis nepovirus
+Vpip_infects_452	Solanum melongena	Tomato yellow mosaic bigeminivirus
+Vpip_infects_453	Solanum melongena	Viola mottle potexvirus
+Vpip_infects_454	Solanum muricatum	Pepino mosaic potexvirus
+Vpip_infects_455	Solanum nigrum	Alfalfa mosaic alfamovirus
+Vpip_infects_456	Solanum nigrum	Arabis mosaic nepovirus
+Vpip_infects_457	Solanum nigrum	Bidens mosaic potyvirus
+Vpip_infects_458	Solanum nigrum	Broad bean wilt fabavirus
+Vpip_infects_459	Solanum nigrum	Cassava African mosaic bigeminivirus
+Vpip_infects_460	Solanum nigrum	Clitoria yellow vein tymovirus
+Vpip_infects_461	Solanum nigrum	Cucumber mosaic cucumovirus
+Vpip_infects_462	Solanum nigrum	Cymbidium ringspot tombusvirus
+Vpip_infects_463	Solanum nigrum	Datura mosaic potyvirus
+Vpip_infects_464	Solanum nigrum	Dulcamara mottle tymovirus
+Vpip_infects_465	Solanum nigrum	Eggplant mottled dwarf nucleorhabdovirus
+Vpip_infects_466	Solanum nigrum	Henbane mosaic potyvirus
+Vpip_infects_467	Solanum nigrum	Okra mosaic tymovirus
+Vpip_infects_468	Solanum nigrum	Pepper Indian mottle potyvirus
+Vpip_infects_469	Solanum nigrum	Pepper severe mosaic potyvirus
+Vpip_infects_470	Solanum nigrum	Pepper veinal mottle potyvirus
+Vpip_infects_471	Solanum nigrum	Potato mop-top furovirus
+Vpip_infects_472	Solanum nigrum	Ribgrass mosaic tobamovirus
+Vpip_infects_473	Solanum nigrum	Solanum nodiflorum mottle sobemovirus
+Vpip_infects_474	Solanum nigrum	Sunn-hemp mosaic tobamovirus
+Vpip_infects_475	Solanum nigrum	Sweet potato mild mottle ipomovirus
+Vpip_infects_476	Solanum nigrum	Tamarillo mosaic potyvirus
+Vpip_infects_477	Solanum nigrum	Tobacco rattle tobravirus
+Vpip_infects_478	Solanum nigrum	Tobacco streak ilarvirus
+Vpip_infects_479	Solanum nigrum	Tobacco yellow dwarf monogeminivirus
+Vpip_infects_480	Solanum nigrum	Tomato bushy stunt tombusvirus
+Vpip_infects_481	Solanum nigrum	Tomato mild mottle potyvirus
+Vpip_infects_482	Solanum nigrum	Tomato mosaic tobamovirus
+Vpip_infects_483	Solanum nigrum	Tomato Peru potyvirus
+Vpip_infects_484	Solanum nigrum	Tomato pseudo curly top hybrigeminivirus
+Vpip_infects_485	Solanum nigrum	Tomato spotted wilt tospovirus
+Vpip_infects_486	Solanum nitidibaccatum	Solanum nodiflorum mottle sobemovirus
+Vpip_infects_487	Solanum nodiflorum	Alfalfa mosaic alfamovirus
+Vpip_infects_488	Solanum nodiflorum	Cucumber mosaic cucumovirus
+Vpip_infects_489	Solanum nodiflorum	Solanum nodiflorum mottle sobemovirus
+Vpip_infects_490	Solanum nodiflorum	Strawberry latent ringspot nepovirus
+Vpip_infects_491	Solanum nodiflorum	Tobacco necrosis necrovirus
+Vpip_infects_492	Solanum nodiflorum	Tobacco streak ilarvirus
+Vpip_infects_493	Solanum nodiflorum	Tomato spotted wilt tospovirus
+Vpip_infects_494	Solanum pennellii	Tomato golden mosaic bigeminivirus
+Vpip_infects_495	Solanum pseudocapsicastrum	Paprika mild mottle tobamovirus
+Vpip_infects_496	Solanum rostratum	Alfalfa mosaic alfamovirus
+Vpip_infects_497	Solanum rostratum	Cucumber mosaic cucumovirus
+Vpip_infects_498	Solanum rostratum	Elderberry carlavirus
+Vpip_infects_499	Solanum rostratum	Potato M carlavirus
+Vpip_infects_500	Solanum rostratum	Potato S carlavirus
+Vpip_infects_501	Solanum rostratum	Potato T trichovirus
+Vpip_infects_502	Solanum rostratum	Solanum nodiflorum mottle sobemovirus
+Vpip_infects_503	Solanum rostratum	Tobacco streak ilarvirus
+Vpip_infects_504	Solanum seaforthianum	Eggplant mosaic tymovirus
+Vpip_infects_505	Solanum sodomaeum	Eggplant mottled dwarf nucleorhabdovirus
+Vpip_infects_506	Solanum spegazzinii	Heracleum latent trichovirus
+Vpip_infects_507	Solanum tuberosum	Abutilon mosaic bigeminivirus
+Vpip_infects_508	Solanum tuberosum	Alfalfa mosaic alfamovirus
+Vpip_infects_509	Solanum tuberosum	Arabis mosaic nepovirus
+Vpip_infects_510	Solanum tuberosum	Arracacha A nepovirus
+Vpip_infects_511	Solanum tuberosum	Asparagus 3 potexvirus
+Vpip_infects_512	Solanum tuberosum	Beet western yellows luteovirus
+Vpip_infects_513	Solanum tuberosum	Cassava green mottle nepovirus
+Vpip_infects_514	Solanum tuberosum	Cucumber mosaic cucumovirus
+Vpip_infects_515	Solanum tuberosum	Eggplant mosaic tymovirus
+Vpip_infects_516	Solanum tuberosum	Henbane mosaic potyvirus
+Vpip_infects_517	Solanum tuberosum	Melilotus mosaic potyvirus
+Vpip_infects_518	Solanum tuberosum	Pepino mosaic potexvirus
+Vpip_infects_519	Solanum tuberosum	Pepper veinal mottle potyvirus
+Vpip_infects_520	Solanum tuberosum	Potato A potyvirus
+Vpip_infects_521	Solanum tuberosum	Potato Andean latent tymovirus
+Vpip_infects_522	Solanum tuberosum	Potato Andean mottle comovirus
+Vpip_infects_523	Solanum tuberosum	Potato aucuba mosaic potexvirus
+Vpip_infects_524	Solanum tuberosum	Potato black ringspot nepovirus
+Vpip_infects_525	Solanum tuberosum	Potato leafroll luteovirus
+Vpip_infects_526	Solanum tuberosum	Potato M carlavirus
+Vpip_infects_527	Solanum tuberosum	Potato mop-top furovirus
+Vpip_infects_528	Solanum tuberosum	Potato S carlavirus
+Vpip_infects_529	Solanum tuberosum	Potato T trichovirus
+Vpip_infects_530	Solanum tuberosum	Potato X potexvirus
+Vpip_infects_531	Solanum tuberosum	Potato Y potyvirus
+Vpip_infects_532	Solanum tuberosum	Potato yellow dwarf nucleorhabdovirus
+Vpip_infects_533	Solanum tuberosum	Solanum yellows luteovirus
+Vpip_infects_534	Solanum tuberosum	Southern potato latent carlavirus
+Vpip_infects_535	Solanum tuberosum	Strawberry latent ringspot nepovirus
+Vpip_infects_536	Solanum tuberosum	Tobacco mosaic tobamovirus
+Vpip_infects_537	Solanum tuberosum	Tobacco rattle tobravirus
+Vpip_infects_538	Solanum tuberosum	Tobacco streak ilarvirus
+Vpip_infects_539	Solanum tuberosum	Tobacco stunt varicosavirus
+Vpip_infects_540	Solanum tuberosum	Tomato Australian leafcurl bigeminivirus
+Vpip_infects_541	Solanum tuberosum	Tomato black ring nepovirus
+Vpip_infects_542	Solanum tuberosum	Tomato bushy stunt tombusvirus
+Vpip_infects_543	Solanum tuberosum	Tomato infectious chlorosis closterovirus
+Vpip_infects_544	Solanum tuberosum	Tomato spotted wilt tospovirus
+Vpip_infects_545	Solanum tuberosum	Tomato top necrosis nepovirus
+Vpip_infects_546	Solanum tuberosum	Tomato yellow mosaic bigeminivirus
+Vpip_infects_547	Solanum tuberosum ssp. andigena	Potato leafroll luteovirus
+Vpip_infects_548	Solanum tuberosum ssp. andigena x S. tuberosum ssp. tuberosum	Potato black ringspot nepovirus
+Vpip_infects_549	Solanum tuberosum ssp. tuberosum	Potato black ringspot nepovirus
+Vpip_infects_550	Solanum tuberosum ssp. tuberosum	Potato leafroll luteovirus
+Vpip_infects_551	Brassica actinophylla	Schefflera ringspot badnavirus
+Vpip_infects_552	Brassica campestris	Arabis mosaic nepovirus
+Vpip_infects_553	Brassica campestris	Broad bean wilt fabavirus
+Vpip_infects_554	Brassica campestris	Cauliflower mosaic caulimovirus
+Vpip_infects_555	Brassica campestris	Horseradish latent caulimovirus
+Vpip_infects_556	Brassica campestris	Radish mosaic comovirus
+Vpip_infects_557	Brassica campestris	Ribgrass mosaic tobamovirus
+Vpip_infects_558	Brassica campestris	Tobacco rattle tobravirus
+Vpip_infects_559	Brassica campestris	Tobacco streak ilarvirus
+Vpip_infects_560	Brassica campestris	Turnip yellow mosaic tymovirus
+Vpip_infects_561	Brassica campestris ssp. chinensis	Cauliflower mosaic caulimovirus
+Vpip_infects_562	Brassica campestris ssp. chinensis	Erysimum latent tymovirus
+Vpip_infects_563	Brassica campestris ssp. chinensis	Radish mosaic comovirus
+Vpip_infects_564	Brassica campestris ssp. chinensis	Turnip yellow mosaic tymovirus
+Vpip_infects_565	Brassica campestris ssp. Napus	Beet western yellows luteovirus
+Vpip_infects_566	Brassica campestris ssp. Napus	Cauliflower mosaic caulimovirus
+Vpip_infects_567	Brassica campestris ssp. Napus	Cucumber mosaic cucumovirus
+Vpip_infects_568	Brassica campestris ssp. Napus	Erysimum latent tymovirus
+Vpip_infects_569	Brassica campestris ssp. Napus	Horseradish latent caulimovirus
+Vpip_infects_570	Brassica campestris ssp. Napus	Radish mosaic comovirus
+Vpip_infects_571	Brassica campestris ssp. Napus	Ribgrass mosaic tobamovirus
+Vpip_infects_572	Brassica campestris ssp. Napus	Tobacco rattle tobravirus
+Vpip_infects_573	Brassica campestris ssp. Napus	Turnip rosette sobemovirus
+Vpip_infects_574	Brassica campestris ssp. Napus	Turnip yellow mosaic tymovirus
+Vpip_infects_575	Brassica campestris ssp. pekinensis	Arabis mosaic nepovirus
+Vpip_infects_576	Brassica campestris ssp. pekinensis	Arracacha A nepovirus
+Vpip_infects_577	Brassica campestris ssp. pekinensis	Beet western yellows luteovirus
+Vpip_infects_578	Brassica campestris ssp. pekinensis	Cauliflower mosaic caulimovirus
+Vpip_infects_579	Brassica campestris ssp. pekinensis	Cucumber mosaic cucumovirus
+Vpip_infects_580	Brassica campestris ssp. pekinensis	Erysimum latent tymovirus
+Vpip_infects_581	Brassica campestris ssp. pekinensis	Horseradish latent caulimovirus
+Vpip_infects_582	Brassica campestris ssp. pekinensis	Lettuce infectious yellows closterovirus
+Vpip_infects_583	Brassica campestris ssp. pekinensis	Pea seed-borne mosaic potyvirus
+Vpip_infects_584	Brassica campestris ssp. pekinensis	Pepper veinal mottle potyvirus
+Vpip_infects_585	Brassica campestris ssp. pekinensis	Radish mosaic comovirus
+Vpip_infects_586	Brassica campestris ssp. pekinensis	Ribgrass mosaic tobamovirus
+Vpip_infects_587	Brassica campestris ssp. pekinensis	Tobacco rattle tobravirus
+Vpip_infects_588	Brassica campestris ssp. pekinensis	Turnip rosette sobemovirus
+Vpip_infects_589	Brassica campestris ssp. pekinensis	Turnip yellow mosaic tymovirus
+Vpip_infects_590	Brassica campestris ssp. rapa	Alfalfa mosaic alfamovirus
+Vpip_infects_591	Brassica campestris ssp. rapa	Arabis mosaic nepovirus
+Vpip_infects_592	Brassica campestris ssp. rapa	Beet western yellows luteovirus
+Vpip_infects_593	Brassica campestris ssp. rapa	Broad bean wilt fabavirus
+Vpip_infects_594	Brassica campestris ssp. rapa	Cardamine chlorotic fleck carmovirus
+Vpip_infects_595	Brassica campestris ssp. rapa	Cauliflower mosaic caulimovirus
+Vpip_infects_596	Brassica campestris ssp. rapa	Cole latent carlavirus
+Vpip_infects_597	Brassica campestris ssp. rapa	Cucumber mosaic cucumovirus
+Vpip_infects_598	Brassica campestris ssp. rapa	Erysimum latent tymovirus
+Vpip_infects_599	Brassica campestris ssp. rapa	Horseradish latent caulimovirus
+Vpip_infects_600	Brassica campestris ssp. rapa	Lettuce infectious yellows closterovirus
+Vpip_infects_601	Brassica campestris ssp. rapa	Peanut stunt cucumovirus
+Vpip_infects_602	Brassica campestris ssp. rapa	Potato X potexvirus
+Vpip_infects_603	Brassica campestris ssp. rapa	Radish mosaic comovirus
+Vpip_infects_604	Brassica campestris ssp. rapa	Ribgrass mosaic tobamovirus
+Vpip_infects_605	Brassica campestris ssp. rapa	Strawberry latent ringspot nepovirus
+Vpip_infects_606	Brassica campestris ssp. rapa	Tobacco necrosis necrovirus
+Vpip_infects_607	Brassica campestris ssp. rapa	Turnip rosette sobemovirus
+Vpip_infects_608	Brassica campestris ssp. rapa	Turnip yellow mosaic tymovirus
+Vpip_infects_609	Brassica carinata	Turnip yellow mosaic tymovirus
+Vpip_infects_610	Brassica juncea	Arabis mosaic nepovirus
+Vpip_infects_611	Brassica juncea	Beet western yellows luteovirus
+Vpip_infects_612	Brassica juncea	Cole latent carlavirus
+Vpip_infects_613	Brassica juncea	Cucumber mosaic cucumovirus
+Vpip_infects_614	Brassica juncea	Erysimum latent tymovirus
+Vpip_infects_615	Brassica juncea	Foxtail mosaic potexvirus
+Vpip_infects_616	Brassica juncea	Pepper veinal mottle potyvirus
+Vpip_infects_617	Brassica juncea	Radish mosaic comovirus
+Vpip_infects_618	Brassica juncea	Ribgrass mosaic tobamovirus
+Vpip_infects_619	Brassica juncea	Tobacco rattle tobravirus
+Vpip_infects_620	Brassica juncea	Turnip yellow mosaic tymovirus
+Vpip_infects_621	Brassica napus var. napobrassica	Beet western yellows luteovirus
+Vpip_infects_622	Brassica nigra	Beet western yellows luteovirus
+Vpip_infects_623	Brassica nigra	Ribgrass mosaic tobamovirus
+Vpip_infects_624	Brassica nigra	Turnip yellow mosaic tymovirus
+Vpip_infects_625	Brassica oleracea	Cauliflower mosaic caulimovirus
+Vpip_infects_626	Brassica oleracea	Cole latent carlavirus
+Vpip_infects_627	Brassica oleracea	Radish mosaic comovirus
+Vpip_infects_628	Brassica oleracea var. acephala	Cole latent carlavirus
+Vpip_infects_629	Brassica oleracea var. botrytis	Arabis mosaic nepovirus
+Vpip_infects_630	Brassica oleracea var. botrytis	Beet western yellows luteovirus
+Vpip_infects_631	Brassica oleracea var. botrytis	Cauliflower mosaic caulimovirus
+Vpip_infects_632	Brassica oleracea var. botrytis	Cole latent carlavirus
+Vpip_infects_633	Brassica oleracea var. botrytis	Erysimum latent tymovirus
+Vpip_infects_634	Brassica oleracea var. botrytis	Radish mosaic comovirus
+Vpip_infects_635	Brassica oleracea var. botrytis	Ribgrass mosaic tobamovirus
+Vpip_infects_636	Brassica oleracea var. botrytis	Strawberry latent ringspot nepovirus
+Vpip_infects_637	Brassica oleracea var. botrytis	Tomato spotted wilt tospovirus
+Vpip_infects_638	Brassica oleracea var. botrytis	Turnip yellow mosaic tymovirus
+Vpip_infects_639	Brassica oleracea var. capitata	Arracacha A nepovirus
+Vpip_infects_640	Brassica oleracea var. capitata	Beet western yellows luteovirus
+Vpip_infects_641	Brassica oleracea var. capitata	Cole latent carlavirus
+Vpip_infects_642	Brassica oleracea var. capitata	Pea seed-borne mosaic potyvirus
+Vpip_infects_643	Brassica oleracea var. capitata	Pepper veinal mottle potyvirus
+Vpip_infects_644	Brassica oleracea var. capitata	Radish mosaic comovirus
+Vpip_infects_645	Brassica oleracea var. capitata	Ribgrass mosaic tobamovirus
+Vpip_infects_646	Brassica oleracea var. capitata	Tobacco necrosis necrovirus
+Vpip_infects_647	Brassica oleracea var. gemmifera	Pea seed-borne mosaic potyvirus
+Vpip_infects_648	Brassica oleracea var. viridis	Pea seed-borne mosaic potyvirus
+Vpip_infects_649	Daucus carota	Alfalfa mosaic alfamovirus
+Vpip_infects_650	Daucus carota	Arabis mosaic nepovirus
+Vpip_infects_651	Daucus carota	Beet pseudo-yellows closterovirus
+Vpip_infects_652	Daucus carota	Carrot mottle mimic umbravirus
+Vpip_infects_653	Daucus carota	Carrot mottle umbravirus
+Vpip_infects_654	Daucus carota	Carrot red leaf luteovirus
+Vpip_infects_655	Daucus carota	Carrot yellow leaf closterovirus
+Vpip_infects_656	Daucus carota	Cassava green mottle nepovirus
+Vpip_infects_657	Daucus carota	Celery mosaic potyvirus
+Vpip_infects_658	Daucus carota	Clover yellow vein potyvirus
+Vpip_infects_659	Daucus carota	Cucumber mosaic cucumovirus
+Vpip_infects_660	Daucus carota	Galinsoga mosaic carmovirus
+Vpip_infects_661	Daucus carota	Heracleum latent trichovirus
+Vpip_infects_662	Daucus carota	Lettuce infectious yellows closterovirus
+Vpip_infects_663	Daucus carota	Oat blue dwarf marafivirus
+Vpip_infects_664	Daucus carota	Okra mosaic tymovirus
+Vpip_infects_665	Daucus carota	Parsnip yellow fleck sequivirus
+Vpip_infects_666	Daucus carota	Poplar mosaic carlavirus
+Vpip_infects_667	Daucus carota	Potato black ringspot nepovirus
+Vpip_infects_668	Daucus carota	Strawberry latent ringspot nepovirus
+Vpip_infects_669	Daucus carota	Tomato black ring nepovirus
+Vpip_infects_670	Daucus carota	Tulip X potexvirus
+Vpip_infects_671	Daucus carota ssp. sativus	Carrot yellow leaf closterovirus
+Vpip_infects_672	Daucus carota ssp. sativus	Celery mosaic potyvirus
+Vpip_infects_673	Spinacia oleracea	Alfalfa mosaic alfamovirus
+Vpip_infects_674	Spinacia oleracea	Amaranthus leaf mottle potyvirus
+Vpip_infects_675	Spinacia oleracea	Arabis mosaic nepovirus
+Vpip_infects_676	Spinacia oleracea	Asparagus 3 potexvirus
+Vpip_infects_677	Spinacia oleracea	Barley stripe mosaic hordeivirus
+Vpip_infects_678	Spinacia oleracea	Bean yellow mosaic potyvirus
+Vpip_infects_679	Spinacia oleracea	Beet mild yellowing luteovirus
+Vpip_infects_680	Spinacia oleracea	Beet necrotic yellow vein furovirus
+Vpip_infects_681	Spinacia oleracea	Beet pseudo-yellows closterovirus
+Vpip_infects_682	Spinacia oleracea	Beet soil-borne furovirus
+Vpip_infects_683	Spinacia oleracea	Beet western yellows luteovirus
+Vpip_infects_684	Spinacia oleracea	Beet yellows closterovirus
+Vpip_infects_685	Spinacia oleracea	Black raspberry necrosis virus
+Vpip_infects_686	Spinacia oleracea	Broad bean wilt fabavirus
+Vpip_infects_687	Spinacia oleracea	Carnation mottle carmovirus
+Vpip_infects_688	Spinacia oleracea	Carnation ringspot dianthovirus
+Vpip_infects_689	Spinacia oleracea	Carnation vein mottle potyvirus
+Vpip_infects_690	Spinacia oleracea	Cherry leaf roll nepovirus
+Vpip_infects_691	Spinacia oleracea	Clover yellow mosaic potexvirus
+Vpip_infects_692	Spinacia oleracea	Clover yellow vein potyvirus
+Vpip_infects_693	Spinacia oleracea	Cowpea mild mottle carlavirus
+Vpip_infects_694	Spinacia oleracea	Cowpea mosaic comovirus
+Vpip_infects_695	Spinacia oleracea	Croton yellow vein mosaic bigeminivirus
+Vpip_infects_696	Spinacia oleracea	Cucumber mosaic cucumovirus
+Vpip_infects_697	Spinacia oleracea	Cycas necrotic stunt nepovirus
+Vpip_infects_698	Spinacia oleracea	Cymbidium ringspot tombusvirus
+Vpip_infects_699	Spinacia oleracea	Dandelion yellow mosaic sequivirus
+Vpip_infects_700	Spinacia oleracea	Daphne Y potyvirus
+Vpip_infects_701	Spinacia oleracea	Dogwood mosaic nepovirus
+Vpip_infects_702	Spinacia oleracea	Elderberry latent carmovirus
+Vpip_infects_703	Spinacia oleracea	Elm mottle ilarvirus
+Vpip_infects_704	Spinacia oleracea	Epirus cherry ourmiavirus
+Vpip_infects_705	Spinacia oleracea	Foxtail mosaic potexvirus
+Vpip_infects_706	Spinacia oleracea	Galinsoga mosaic carmovirus
+Vpip_infects_707	Spinacia oleracea	Habenaria mosaic potyvirus
+Vpip_infects_708	Spinacia oleracea	Heracleum latent trichovirus
+Vpip_infects_709	Spinacia oleracea	Lettuce infectious yellows closterovirus
+Vpip_infects_710	Spinacia oleracea	Lettuce mosaic potyvirus
+Vpip_infects_711	Spinacia oleracea	Lettuce necrotic yellows cytorhabdovirus
+Vpip_infects_712	Spinacia oleracea	Lucerne Australian latent nepovirus
+Vpip_infects_713	Spinacia oleracea	Lucerne Australian symptomless nepovirus
+Vpip_infects_714	Spinacia oleracea	Lucerne transient streak sobemovirus
+Vpip_infects_715	Spinacia oleracea	Lychnis ringspot hordeivirus
+Vpip_infects_716	Spinacia oleracea	Melon Ourmia ourmiavirus
+Vpip_infects_717	Spinacia oleracea	Milk vetch dwarf nanavirus
+Vpip_infects_718	Spinacia oleracea	Mulberry latent carlavirus
+Vpip_infects_719	Spinacia oleracea	Nandina mosaic potexvirus
+Vpip_infects_720	Spinacia oleracea	Nicotiana velutina mosaic furovirus
+Vpip_infects_721	Spinacia oleracea	Oat blue dwarf marafivirus
+Vpip_infects_722	Spinacia oleracea	Okra mosaic tymovirus
+Vpip_infects_723	Spinacia oleracea	Parietaria mottle ilarvirus
+Vpip_infects_724	Spinacia oleracea	Parsnip leafcurl virus
+Vpip_infects_725	Spinacia oleracea	Parsnip yellow fleck sequivirus
+Vpip_infects_726	Spinacia oleracea	Patchouli mosaic potyvirus
+Vpip_infects_727	Spinacia oleracea	Pea early browning tobravirus
+Vpip_infects_728	Spinacia oleracea	Pea streak carlavirus
+Vpip_infects_729	Spinacia oleracea	Peanut chlorotic streak caulimovirus
+Vpip_infects_730	Spinacia oleracea	Peanut mottle potyvirus
+Vpip_infects_731	Spinacia oleracea	Peanut stunt cucumovirus
+Vpip_infects_732	Spinacia oleracea	Pelargonium flower break carmovirus
+Vpip_infects_733	Spinacia oleracea	Pepper Moroccan tombusvirus
+Vpip_infects_734	Spinacia oleracea	Pepper ringspot tobravirus
+Vpip_infects_735	Spinacia oleracea	Petunia asteroid mosaic tombusvirus
+Vpip_infects_736	Spinacia oleracea	Potato T trichovirus
+Vpip_infects_737	Spinacia oleracea	Radish mosaic comovirus
+Vpip_infects_738	Spinacia oleracea	Raspberry ringspot nepovirus
+Vpip_infects_739	Spinacia oleracea	Red clover necrotic mosaic dianthovirus
+Vpip_infects_740	Spinacia oleracea	Ribgrass mosaic tobamovirus
+Vpip_infects_741	Spinacia oleracea	Rose tobamovirus
+Vpip_infects_742	Spinacia oleracea	Sowbane mosaic sobemovirus
+Vpip_infects_743	Spinacia oleracea	Soybean mild mosaic virus
+Vpip_infects_744	Spinacia oleracea	Spinach latent ilarvirus
+Vpip_infects_745	Spinacia oleracea	Spinach temperate alphacryptovirus
+Vpip_infects_746	Spinacia oleracea	Statice Y potyvirus
+Vpip_infects_747	Spinacia oleracea	Strawberry latent ringspot nepovirus
+Vpip_infects_748	Spinacia oleracea	Sunflower ringspot ilarvirus
+Vpip_infects_749	Spinacia oleracea	Sunn-hemp mosaic tobamovirus
+Vpip_infects_750	Spinacia oleracea	Sweet potato mild mottle ipomovirus
+Vpip_infects_751	Spinacia oleracea	Tobacco necrosis necrovirus
+Vpip_infects_752	Spinacia oleracea	Tobacco rattle tobravirus
+Vpip_infects_753	Spinacia oleracea	Tobacco streak ilarvirus
+Vpip_infects_754	Spinacia oleracea	Tobacco stunt varicosavirus
+Vpip_infects_755	Spinacia oleracea	Tomato black ring nepovirus
+Vpip_infects_756	Spinacia oleracea	Tomato bushy stunt tombusvirus
+Vpip_infects_757	Spinacia oleracea	Tomato spotted wilt tospovirus
+Vpip_infects_758	Spinacia oleracea	Tulip halo necrosis virus
+Vpip_infects_759	Spinacia oleracea	Tulip X potexvirus
+Vpip_infects_760	Spinacia oleracea	Vallota mosaic potyvirus
+Vpip_infects_761	Spinacia oleracea	Viola mottle potexvirus
+Vpip_infects_762	Spinacia oleracea	Watermelon mosaic 2 potyvirus
+Vpip_infects_763	Spinacia oleracea	Wineberry latent virus
+Vpip_infects_764	Spinacia oleracea	Wisteria vein mosaic potyvirus

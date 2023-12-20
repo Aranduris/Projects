@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{url_for('static',filename='css/Style.css')}}">
+</head>
+<body>
+<div class="navbar">
+    <a href="/About/">About</a>
+    <a href="/">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">
+          Browse 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/Plants/">Plants</a>
+        <a href="/Viruses">Viruses</a>
+        <a href="/Infects/">Infects</a>
+        <a href="/CDS/">CDS</a>
+        <a href="/motifs_domain/">Motifs & Domain</a>
+      </div>
+    </div>
+    <div class="dropdown" style="float:  right;">
+        <button class="dropbtn">
+          Search Options
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/Home/Common">Common Name</a>
+          <a href="/Home/Virus">Virus Name</a>
+          <a href="/Home/Motif">Motifs</a>
+        </div>
+     </div>
+    <div class="search-container">
+      <form action="/Scientific Name/Result/" method="GET">
+        <input type=text placeholder="Search.." name="search" >
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    </div>
+  </div>
+  <div style="padding-left:16px">
+  <h3>CDS Table</h3>
+  <p>Shows the CDS regions that were found for each virus</p>
+    <table border="1" style="table-layout:fixed;" class="table">
+        <thead>
+          <tr>
+            <th>Virus ID</th>
+            <th>Virus Name</th>
+            <th>CDS start</th>
+            <th>CDS Stop</th>
+            <th>CDS Translated Squence</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for CD in CDS %}
+          <tr>
+            <td>{{CD.virusid}}</td>
+            <td>{{CD.name}}</td>
+            <td>{{CD.cdsstart}}</td>
+            <td>{{CD.cdsstop}}</td>
+            <td style="width:100px;"><div style="overflow-x:scroll;width:100%">{{CD.cdstranslatedseq}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+  </div>
+</body>
+</html>
