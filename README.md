@@ -18,5 +18,8 @@ alternative sampling techniques, and leveraging high-performance computing. It s
 + Queue Optimization For Airport Security
   - This project addresses the challenges faced by airport security checkpoints in optimizing passenger throughput while maintaining stringent security measures post-9/11. The TSA seeks to investigate and resolve issues such as tracking passenger flow, addressing high variability in wait times across airports, and considering cultural and behavioral factors impacting security checkpoint experiences. The objective is to provide policy recommendations that balance security standards and passenger convenience, offering globally applicable or adaptable solutions to enhance efficiency and reduce wait time variances at airport security checkpoints.
 
++ Threat Identification
+  - The Project aims to investigate a fictional white-collar crime involving embezzlement and internet fraud within a software company, employing a network-based approach. With 83 nodes, 400 links, and 15 topics, the goal is to prioritize potential conspirators, considering known individuals and suspicious message topics. The analysis successfully identifies 18 suspects, including senior managers, emphasizing the need for caution in interpreting flagged activities. The model's adaptability extends beyond crime scenarios to applications such as virus propagation tracking in biological networks, showcasing its potential in diverse fields and contributing innovative insights.
+
 + Viral Sequences for crops DB
   - An attempt at creating a database by gathering relevant sequence data for viruses that infect various crops like Rice, Corn, Wheat, etc.
