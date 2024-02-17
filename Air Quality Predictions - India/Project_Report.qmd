@@ -1,0 +1,481 @@
+---
+title: "Air Quality in India"
+subtitle: "Forecasting and Analytics"
+author: "Anit Mathew and Ritwik Katiyar"
+mainfont: "Times New Roman"
+format: 
+    pdf:
+        pdf-math-method: katex
+jupyter: python3
+execute: 
+  warning: false
+---
+### Summary 
+
+*Our project aim is to analyze air pollution in India. To predict what the situation will be in the next year with reference to time. It turns out that winter is the most polluted time of the year. Pollution levels decrease during the summer and monsoons. The lowest contamination levels were recorded in August and September. Air pollution in June 2022 was the highest compared to June in the last five years. Our forecast model shows neither an increase nor a decrease in pollution levels in the coming year. *
+
+\newpage
+```{python}
+#| echo: False 
+
+from IPython.display import Markdown
+from tabulate import tabulate
+
+import pandas as pd
+import numpy as np
+from datetime import datetime
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from sklearn.linear_model import LinearRegression
+
+from statsmodels.tsa.stattools import adfuller
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.graphics.tsaplots import plot_predict
+from sklearn.metrics import mean_squared_error
+
+from statsmodels.graphics.tsaplots import plot_acf
+from statsmodels.graphics.tsaplots import plot_pacf
+from statsmodels.tsa.seasonal import seasonal_decompose
+
+from statsmodels.tsa.exponential_smoothing.ets import ETSModel
+import pmdarima as pm
+
+import plotly.graph_objects as go
+import statsmodels.api as sm
+sns.set()
+
+```
+
+## Introduction
+
+&nbsp;&nbsp;&nbsp;&nbsp;Air Pollution is the contamination of the indoor or outdoor environment by any chemical, physical or biological agent that modifies the natural characteristics of the atmosphere.PM2.5 are tiny particles in the air that reduce visibility and cause the air to appear hazy when levels are elevated. It is important to understand what level of Air pollution is surrounding us. India has been at the top of the index for the last few years. We have gathered aggregated data on Air pollution in India over 5 years from 2017 to 2022. In this project we will try to find in which month of the year air pollution is the highest in the country, is there any relationship between time of the year? Further, we will try to answer the question of whether air pollution will increase or decrease in India through machine learning. 
+
+The dataset used was uploaded by  *'fedesoriano'* as [Kaggle-Dataset: Air Quality Data in India ](https://www.kaggle.com/datasets/fedesoriano/air-quality-data-in-india) The dataset contains the following variables: 
+
++   Timestamp Sort: Date and time when the data was collected.
++   Year-sort: Year when the data was collected.
++    Month-sort: Month when the data was collected.
++   Day-sort: The day when the data was collected.
++   Hour-sort: Hour when the data was collected.
++    PM2.5: PM2.5 level of the country when the data was collected. 
+
+The first five rows of our dataset are as follows:
+
+```{python}
+#| echo: False 
+df = pd.read_csv("air-quality-india.csv")
+df_head = df.head()
+df_display = df_head.values.tolist()
+Markdown(tabulate(df_head,headers=["Timestamp","Year","Month","Day","Hour","PM2.5"], tablefmt='latex'))
+```
+
+The Queries for our project are as follows:
+
+1. Analyzing the air pollution dataset year-wise and visualizing the current scenario. Is the air pollution situation in India every year or is there any difference?
+2. Identifying if there is any relationship between Air pollution and months of the year. Is the air pollution in India the same throughout the year or does it fluctuate on a month to month basis.?
+3. Predicting Air pollution based on PM 2.5 levels. What will be the air pollution for the year 2023, will it increase or decrease?
+
+
+## Methodology
+
+&nbsp;&nbsp;&nbsp;&nbsp;The data was collected was Kaggle and was easy to download from the website. Upon looking at the website, it was hard to understand the data. The data consisted hourly data of Air pollution in India for the past years.
+
+1. Data Cleaning: The data contained more than 5000 records. To start with the research, it was important to clean the data.
+
+```{python}
+#| echo: false
+#| output: false
+# To convert NaN values to 0 for preparation for Modelling
+df = df.fillna(0)
+# Checking to ensure that there are no NULL entries
+result = df.isnull().sum()
+count = 0
+for item in result:
+    if item != 0:
+        count += 1
+if count == 0:
+    print("Data is cleaned and has no null values")        
+else:
+    print("Data has null values")
+
+```
+
+
+2. For analyzing the year wise scenario, we combined the data in python for every year using groupby and calculated the average air pollution for that particular year. We pulled statiscal data and plugged the data into bar plots to better the visualize the scenario. 
+
+3. For identfying the relationship between hour, month and year, we segregated  the data in python for every month wise, hourly wise, for each year separate using groupby and calculated the average air pollution for that particular year. We pulled statistical data and plugged the data into bar plots to better the visualize the scenario. Different approach helps us to gain insight on the actual situation. 
+
+4. For Machine learning, before we even start to run any models we need to make sure that our data is ready for machine learning. To accomplish that, we will be altering our dataset to be organized by day instead of an hour, for easy processing. We will be accomplishing that by taking the mean pollution level for every recorded day. We will also be removing any extra columns within our data set such as "day", "month", and "year" variables. Finally, we will be creating testing and a training split for our dataset. This would be useful to test our model against pre-existing values. We will be splitting the data into 70% training and 30% testing.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width = 0.90\textwidth]{Plots/train_test.png}
+  \caption{Training and Testing Split}
+  \label{fig:lr_line}
+\end{figure}
+
+## Data Analysis and Visualizations
+
+&nbsp;&nbsp;&nbsp;&nbsp;What is the situation in India in terms of air pollution? The data is vast and confusing to read. To better analyze the situation, we plotted the data on bar plots. First, we took a broader approach, we cumulated 5-year data into an hour, month and year. The grading of air quality is as follows: 
+
+\begin{table}[!hbt]
+\centering
+\begin{tabular}{lll}
+\hline
+Air Quality Category & PM2.5 µg/m3 Averaged & PM2.5 µg/m3 Averaged \\ 
+                     & Over an Hour         & Over 24 Hours        \\ \hline
+Good                 & Less than 25         & Less than 12.5       \\
+Fair                 & 25-50                & 12.5-25              \\
+Poor                 & 50-100               & 25-30                \\
+Very poor            & 100-300              & 50-150               \\
+Extremely Poor       & More than 300        & More than 150        \\ \hline
+\end{tabular}
+\end{table}
+
+```{python}
+#| echo: false
+import seaborn as sb
+import matplotlib.pyplot as plt
+
+fig, axes = plt.subplots(nrows=1, ncols=3)
+fig.set_size_inches(20, 5)
+
+plot1 = df.groupby('Year', as_index=False)['PM2.5'].mean()
+sb.lineplot(ax=axes[2], x= 'Year', y ='PM2.5', data=plot1, ci=False)
+axes[2].set_title("Year_wise_air_pollution")
+plt.savefig("Year_wise_air_pollution")
+
+plot2 = df.groupby('Month', as_index=False)['PM2.5'].mean()
+sb.lineplot(ax=axes[1], x= 'Month', y ='PM2.5', data=plot2, ci=False)
+axes[1].set_title("Month_wise_air_pollution")
+plt.savefig("Month_wise_air_pollution")
+
+plot3 = df.groupby('Hour', as_index=False)['PM2.5'].mean()
+sb.lineplot(ax=axes[0], x= 'Hour', y ='PM2.5', data=plot3, ci=False)
+axes[0].set_title("hourly_wise_air_pollution")
+plt.savefig("hourly_wise_air_pollution")
+
+```
+
+- In the first plot, we cumulated the hour-wise plot. We can see that there is wave-like formation. Overall the average air pollution is above 40 which brings somewhere between poor and very poor category. The pollution level peaks two times during the day. One is from 4 to 5 and the other one is from 5 to 7. The lowest it drops during noon.
+
+- In the second plot, we cumulated month-wise data plot. We can see that the pollution level is at its peak during the start and end of the year. By looking at the plot, we see that July and August has the lowest level of air pollution which is less than 30 which brings them under the fair category. 
+
+- In the third plot, we cumulated year-wise data to plot. We can see that except for 2017, each year has average air pollution between 40 to 60. In 2017, air pollution was above 80. To better understand the results, we tried to dig a little deeper. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;Bar plot may not provide accurate visualization which in turn hamper our analysis. To accurately summarize the data, we cumulated it and plotted it on a heat map. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;The plot below provides an intense, deeper analysis of the whole situation of air pollution in India. Winters are the most polluted time of the month. The Pollution level has been declining with every coming year. During the summer and monsoon, pollution level declines. 
+\
+\
+```{python}
+#| echo: false
+#| fig-align: center
+fig = plt.figure(figsize=(4,4))
+sb.heatmap(df.groupby(['Month','Year'])['PM2.5'].mean().unstack(), annot=True, fmt=".0f", cmap = sb.cm.rocket_r, cbar_kws={'label': 'pollution level'})
+plt.title("Cumulative air pollution level of India 2017-2022")
+plt.show()
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;Now, the question arises, will pollution increase or decrease in 2023. To understand the same, we focused on running a model through the data, so that we can understand what type of relationship does the data posses. 
+
+
+## Forecasting
+
+```{python}
+#| echo: false
+df = pd.read_csv("air-quality-india.csv")
+time_stamp = df['Timestamp'].str.split(' ', expand=True)
+df['Timestamp'] = time_stamp.iloc[:,0]
+df = df.groupby('Timestamp')['PM2.5'].mean()
+time = df.index
+pollution = df.values
+df = pd.DataFrame(time)
+df['PM2.5']= pollution
+df.index = pd.to_datetime(df['Timestamp'], format='%Y-%m-%d')
+```
+```{python}
+#| echo: false
+percentage=round(len(df)/100*70) 
+train = df.head(percentage)  
+test=df.iloc[percentage:len(df),:]
+```
+
+
+
+#### Linear Regression Model
+
+&nbsp;&nbsp;&nbsp;&nbsp;As our first attempt at forecasting air pollution levels, we began by using a simple linear regression model. The linear regression model is used to find a relationship between two variables by fitting a linear equation to the observed data. This is a simple model that should be able to utilize the relationship between time and air quality to generate predictions on what air quality would be like.
+
+The equation for the linear regression line would be as follows for our model:\
+$$AirQuality = \beta_0 + \beta_{Time} + \epsilon$$
+
+&nbsp;&nbsp;&nbsp;&nbsp;Since dates aren't something a linear regression model can handle we will be adding a column that sets the first day of our data set as 0 and integrates for every day. This is done so that the model has a numerical value to compare the pollution levels to. We can then construct our model and see if our model is useful for making any predictions.
+
+```{python}
+#| echo: false
+#| output: false
+df_lr = df.copy()
+df_lr['days'] = (df_lr.index - df_lr.index[0]).days; df
+X_lr = df_lr['days'].values.reshape(-1, 1)
+Y_lr = df_lr['PM2.5']
+X_lr = sm.add_constant(X_lr)
+model_lr = sm.OLS(Y_lr, X_lr)
+model_result_lr = model_lr.fit()
+model_result_lr.summary()
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;From the summary, of our model, we notice that our R-squared value is just 0.063 meaning that our model is only able to explain a mere 6% of the variation in our dataset. We can't use a model that can only explain such a small proportion of variance. Using a simple linear line to explain such a complex relationship is just isn't enough. To obtain better results and eventually forecast, we need to use a different model.
+
+
+```{python}
+#| echo: false
+#| output: false
+Y = train['PM2.5']
+new_data = pd.read_csv("New_dates.csv")
+new_time = new_data['Timestamps'].str.split(' ', expand=True)
+new_data['Timestamps'] = new_time[0]
+for i in range(0,len(new_data['Timestamps'])):
+    time = new_data.loc[i,'Timestamps']
+    new_data.loc[i,'Timestamps'] = str(datetime.strptime(time,'%m/%d/%Y'))
+new_time = new_data['Timestamps'].str.split(' ', expand=True)
+new_data['Timestamps'] = new_time[0]
+new_data.index = pd.to_datetime(new_data['Timestamps'], format='%Y-%m-%d')
+```
+
+#### ARIMA Modeling
+
+&nbsp;&nbsp;&nbsp;&nbsp;ARIMA stands for autoregression integration of a moving average. This model is specifically used for forecasting time series data. The equation for the ARIMA model consists of three parts.\
+The first part is autoregression: Auto regression refers to the changing variable within the model that regresses on its own and has prior values.\
+The second part is integrated: This refers to the differencing between observations.\
+The third part is the Moving Average: This takes into account the dependency between an observation and a residual error from the moving average model.\ 
+
+The ARIMA parameters for the model are as follows:\
+P = liner combination lags.\
+d = Number of times the raw observations difference.\
+q = Liner combination of lagged forecast errors. Simply, the size of the moving average window.\
+Before we even run the model we need to first determine the values for p,q, and d.
+
+#### Determining the d-value
+
+&nbsp;&nbsp;&nbsp;&nbsp;D-value refers to differencing. Which in turn refers to making the time series stationary. To test if our dataset is stationary we can utilize what is known as the Augmented Dickey-Fuller test (ADF). ADF is a unit root test, in other words, the test looks for the presence of a 'unit root' (A unit root essentially means a systematic pattern within a data set that is unpredictable.) To determine if the series is non-stationary. we can set up our hypothesis test as follow by taking an $\alpha$ = 0.05.\
+$H_o$ = The Data set is not stationary\
+$H_a$ = The Data set is stationary\
+
+\vspace{-7truemm}
+```{python}
+#| echo: false
+stationary_check = df['PM2.5']
+adfuller_results = adfuller(stationary_check, autolag='AIC')
+print(f'ADF Statistic: {adfuller_results[0]}')
+print(f'p-value: {adfuller_results[1]}')
+```
+\vspace{-5truemm}
+We reject the Null hypothesis if the p-value < 0.05\
+&nbsp;&nbsp;&nbsp;&nbsp;From the summary above we can observe that the p-value is greater than 0.05. Which means we do not have significant evidence to reject the null hypothesis. Hence this means our data is non-stationary.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Since our data is non-stationary we can try to differentiate our data set. Differencing simply refers to calculating the difference between each variable within our dataset.\
+$y_t = Air_{pollution}$\
+$y_t' = y_t - y_{t-1}$\
+&nbsp;&nbsp;&nbsp;&nbsp;After differencing we can then run the ADF test again to see if differencing helped make our data stationary. If our data is still not stationary we would need to differentiate again. Running the test on the differenced data we get. \
+Setting up a new hypothesis test with an $\alpha$ of 0.05\
+$H_o$ = The once differenced data set is not stationary\
+$H_a$ = The once differenced data set is stationary\
+We reject the Null hypothesis if the p-value < 0.05\
+\vspace{-7truemm}
+```{python}
+#| echo: false
+from pmdarima.utils import c, diff
+difference_pm = diff(df['PM2.5'], lag=1, differences=1)
+stationary_check = difference_pm
+adfuller_results = adfuller(stationary_check, autolag='AIC')
+print(f'ADF Statistic: {adfuller_results[0]}')
+print(f'p-value: {adfuller_results[1]}')
+```
+\vspace{-5truemm}
+&nbsp;&nbsp;&nbsp;&nbsp;After differencing our p-value has decreased significantly meaning we now have enough evidence to reject the null and conclude that our data is now stationary and we were able to accomplish that via only one differencing once. Hence meaning that d = 1.
+
+#### Determining p
+
+&nbsp;&nbsp;&nbsp;&nbsp;We can determine the value of the Auto regressive term p by taking a look at the Partial Autocorrelation plot (PACF). PACF is a plot that displays the correlation between the series and its lag.\
+Mathematically speaking:\
+The PACF for our $1^{st}$-order differenced data set looks as follows:\
+
+```{python}
+#| echo: false
+plt.rcParams.update({'figure.figsize':(9,2.5), 'figure.dpi':120})
+fig, axes = plt.subplots(1, 2, sharex=False)
+axes[0].plot(diff(df['PM2.5'], lag=1, differences=1)); axes[0].set_title('1st Differencing')
+axes[1].set(ylim=(0,5))
+plot_pacf(pd.DataFrame(diff(df['PM2.5'], lag=1, differences=1)).dropna(), ax=axes[1])
+plt.show()
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;We can observe that the PACF lag 2 is quite significant since it is above the significant line (in blue). There seem to be other significant lags however, we will take the lowest number of lags. 
+
+#### Determining q
+
+Similar to how we determined the value of p we can now look at the Autocorrelation Function plot (ACF) to determine the value of q. The value of ACF is a reference to the number of moving average terms or the moving average error of the lag. The following plot shows us the ACF of our data.
+
+```{python}
+#| echo: false
+plt.rcParams.update({'figure.figsize':(9,2.5), 'figure.dpi':120})
+fig, axes = plt.subplots(1, 2, sharex=False)
+axes[0].plot(diff(df['PM2.5'], lag=1, differences=1)); axes[0].set_title('1st Differencing')
+axes[1].set(ylim=(0,5))
+plot_acf(pd.DataFrame(diff(df['PM2.5'], lag=1, differences=1)).dropna(), ax=axes[1])
+plt.show()
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;From the plot, we can ascertain that the ACF lag 2 is once again quite significant since it is above the significant line (in blue). Now that we have our p,q, and d values we can finally get ready for modeling. However, before we can model we need to first split our model into 
+
+#### Model 1 - ARIMA Model (p = 2, d = 1, q = 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;We are now ready to run the ARIMA model. However, before we run any predictions we can take a look at our model to see if there are glaring issues that would need to be corrected. 
+
+```{python}
+#| echo: false
+ARIMAmodel = ARIMA(Y, order = (2, 1, 2))
+ARIMAmodel = ARIMAmodel.fit()
+```
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width = 0.70\textwidth]{Plots/model1-sim.png}
+  \caption{Results From ARIMA Model-1}
+  \label{fig:mod1}
+\end{figure}
+
+&nbsp;&nbsp;&nbsp;&nbsp;The plot displays the upper and lower limits as predicted by the model. We can also observe the mean which seems to be a straight line. Meaning that based on our model the air pollution level would essentially remain the same for the coming year and there will be no decrease or increase in overall air pollution. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;To test the strength of our model we can also take a look at the mean squared error. For the number of errors, our model had predicting the values. The mean squared error for our model is 34.03, which is relatively high. However, due to the nature of our data set, this is the best our model can produce. Based on manual analysis and determination of the p,q, and d values. Although, there is an ARIMA model that uses an automatic stepwise function to determine the best model based on the lowest Akaike Information Criterion (AIC).
+
+```{python}
+#| echo: false
+#| output: false
+new_data = pd.read_csv("New_dates.csv")
+new_time = new_data['Timestamps'].str.split(' ', expand=True)
+new_data['Timestamps'] = new_time[0]
+for i in range(0,len(new_data['Timestamps'])):
+    time = new_data.loc[i,'Timestamps']
+    new_data.loc[i,'Timestamps'] = str(datetime.strptime(time,'%m/%d/%Y'))
+new_time = new_data['Timestamps'].str.split(' ', expand=True)
+new_data['Timestamps'] = new_time[0]
+new_data.index = pd.to_datetime(new_data['Timestamps'], format='%Y-%m-%d')
+df.to_csv('new_data.csv', index = False)
+
+y_pred = ARIMAmodel.get_forecast(len(test.index) + len(new_data.index))
+y_pred_df = y_pred.conf_int(alpha = 0.1)
+y_pred_df["Predictions"] = ARIMAmodel.predict(start = y_pred_df.index[0], end = y_pred_df.index[-1])
+y_pred_df.index = np.concatenate((test.index,new_data.index))
+testing = y_pred_df.iloc[0:485,:]
+arma_rmse = np.sqrt(mean_squared_error(test["PM2.5"].values, testing["Predictions"]))
+print("MSE:",arma_rmse)
+```
+
+#### Model 2 - Auto ARIMA 
+
+&nbsp;&nbsp;&nbsp;&nbsp;Auto ARIMA is a stepwise ARIMA model that picks the best p, q, and d values based on the lowest AIC score. The AIC score is known as an estimator of the quality of our statistical model for the given data. The AIC estimates the quality of the model, relative to other models for the same data, hence serving as a way to select a model. 
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width = 0.80\textwidth]{Plots/Auto-1.png}
+  \caption{Results From Auto ARIMA}
+  \label{fig:mod2}
+\end{figure}
+
+&nbsp;&nbsp;&nbsp;&nbsp;We can see that model suggests that we use p = 1, d = 1, and q = 2 to better fit our model. This is a little off from what we did in our previous model. However, we will go with the model's output and try to validate if the auto ARIMA did in fact provide us with better results.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width = 0.70\textwidth]{Plots/model2.png}
+  \caption{Results From Auto ARIMA Model-2}
+  \label{fig:mod2}
+\end{figure}
+
+&nbsp;&nbsp;&nbsp;&nbsp;The model's predicted output looks very similar to what we had in our previous model. Since there is only an insignificant change (p = 1 instead of 2) it makes sense that we don't notice a substantial increase or decrease in the overall predictions. The mean squared error for our first model was approximately 34.03. However, the mean squared error for our auto ARIMA model is approximately 34.10. There is a slight decrease in the quality of our model, and overall there doesn't seem to be a major difference between the two variations. However, it was interesting to see the results nonetheless.
+```{python}
+#| echo: false
+#| output: false
+ARIMAmodel2 = ARIMA(Y, order = (1, 1, 2))
+ARIMAmodel2 = ARIMAmodel2.fit()
+y_pred2 = ARIMAmodel2.get_forecast(len(test.index) + len(new_data.index))
+y_pred_df2 = y_pred.conf_int(alpha = 0.1)
+y_pred_df2["Predictions"] = ARIMAmodel2.predict(start = y_pred_df2.index[0], end = y_pred_df2.index[-1])
+y_pred_df2.index = np.concatenate((test.index,new_data.index))
+y_pred_df2
+testing = y_pred_df2.iloc[0:485,:]
+arma_rmse = np.sqrt(mean_squared_error(test["PM2.5"].values, testing["Predictions"]))
+print("MSE for Auto ARIMA:",arma_rmse)
+```
+
+#### Model 3 - Assuming Our data is Stationary
+
+&nbsp;&nbsp;&nbsp;&nbsp;If we go back to the point where we determined the d value. We noticed that the p-value given by the ADF test on our data set was: 
+
+```{python}
+#| echo: false
+stationary_check = df['PM2.5']
+adfuller_results = adfuller(stationary_check, autolag='AIC')
+print(f'p-value: {adfuller_results[1]}')
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;If we set $\alpha$ of 0.1 We can reject the null and assume that our data is stationary. Also from looking at our PACF and ACF plots one can notice that we don't seem to be able to see strong collinearity. Which could mean that we are over stationarizing our data. If we run auto-ARIMA again, however, this time we force the model to assume that our data is stationary. We get the following results:
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width = 0.70\textwidth]{Plots/Auto-2.png}
+  \caption{Results From Auto ARIMA Assuming Starionary}
+  \label{fig:mod3}
+\end{figure}
+
+&nbsp;&nbsp;&nbsp;&nbsp;Based on the auto ARMIA, we need to set our p and q values as 2 for both. Setting these values we can run our model and take a look at the model residual diagnostics one again to see if there are any major issues.
+
+```{python}
+#| echo: false
+ARIMAmodel3 = ARIMA(Y, order = (2, 0, 2))
+ARIMAmodel3 = ARIMAmodel3.fit()
+y_pred3 = ARIMAmodel3.get_forecast(len(test.index) + len(new_data.index))
+y_pred_df3 = y_pred3.conf_int(alpha = 0.1)
+y_pred_df3["Predictions"] = ARIMAmodel3.predict(start = y_pred_df3.index[0], end = y_pred_df3.index[-1])
+y_pred_df3.index = np.concatenate((test.index,new_data.index))
+testing = y_pred_df3.iloc[0:485,:]
+arma_rmse = np.sqrt(mean_squared_error(test["PM2.5"].values, testing["Predictions"]))
+```
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width = 0.70\textwidth]{Plots/model3_nosim.png}
+  \caption{Results From Auto Arima Assuming Starionary}
+  \label{fig:mod3}
+\end{figure}
+
+&nbsp;&nbsp;&nbsp;&nbsp;We notice that our mean squared error has gone down substantially to 24.04 from around 34.10 in our outher models. We are not sure why the mean square error has gone down. However, it could be possible that we may be overfitting our model. We can notice from figure 9 that our upper and lower bound predictions have gotten narrow compared to the previous models suggesting possible overfitting. However, despite the shortcomings, it is interesting to note that out of the other two models this is the only model that predicts that the air pollution level would decrease. Although, the decrease in pollution level is rather minor. Finally, to get a different prediction, we decided to run another time series model known as ETS.
+
+
+## Discussion
+
+&nbsp;&nbsp;&nbsp;&nbsp;Forecasting air quality is a complex task due to environmental dynamics, unpredictability, and changes in pollutant status and time. The serious consequences of air pollution on people, animals, plants, monuments, climate and environment require continuous monitoring and analysis of air quality, especially in developing countries like India. The resuts that we can take back from this case study are: 
+
+- Winters are the most polluted time of the month. 
+- Winter of 2017 was the most polluted time in the past 5 year. 
+- Pollution level has been declining with every coming year. 
+- During the summer and monsoon, pollution level declines. 
+- Best month is the month of August and September. 
+- January 2022 had the lowest air pollution level during winters comparatively and gradually declining.
+- But as per the plot, the month of June 2022 had the highest air pollution level if compared with June of the last 5 years.
+- Our prediction model suggests that there will be neither an increase nor a decrease in pollution levels for the next year. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;Having said that, there are still a lot of factors, which can be a reason for air pollution. There is further scope to this project. This project can be  a big research project by extracting more data. 
+
+## References
+
+https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
+
+https://towardsdatascience.com/introduction-to-aic-akaike-information-criterion-9c9ba1c96ced#:~:text=In%20plain%20words%2C%20AIC%20is%20a%20single%20number,same%20dataset.%20A%20lower%20AIC%20score%20is%20better.
+
+https://www.statsmodels.org/dev/examples/notebooks/generated/ets.html
+
+https://otexts.com/fpp3/holt.html

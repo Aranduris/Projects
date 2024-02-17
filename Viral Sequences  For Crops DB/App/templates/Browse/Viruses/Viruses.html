@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{url_for('static',filename='css/Style.css')}}">
+</head>
+<div class="navbar">
+    <a href="/About/">About</a>
+    <a href="/">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">
+          Browse 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/Plants/">Plants</a>
+        <a href="/Viruses">Viruses</a>
+        <a href="/Infects/">Infects</a>
+        <a href="/CDS/">CDS</a>
+        <a href="/motifs_domain/">Motifs & Domain</a>
+      </div>
+    </div>
+    <div class="dropdown" style="float:  right;">
+        <button class="dropbtn">
+          Search Options
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/Home/Common">Common Name</a>
+          <a href="/Home/Virus">Virus Name</a>
+          <a href="/Home/Motif">Motifs</a>
+        </div>
+     </div>
+    <div class="search-container">
+      <form action="/Scientific Name/Result/" method="GET">
+        <input type=text placeholder="Search.." name="search" >
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    </div>
+  </div>
+</head>
+<body>
+  <div style="padding-left:16px">
+  <h3>Virus Table</h3>
+  <p>The table shows all the viruses within the database along with</p>
+  <p>thier NCBI ID's and squences</p>
+    <table border="1" style="table-layout:fixed;" class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Sequence</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for Virus in Viruses %}
+          <tr>
+            <td>{{Virus.name}}</td>
+            <td>{{Virus.id}}</td>
+            <td style="width:100px;"><div style="overflow-x:scroll;width:100%">{{Virus.sequence}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+  </div>
+</body>

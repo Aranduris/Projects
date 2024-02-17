@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{url_for('static',filename='css/Style.css')}}">
+</head>
+<body>
+<div class="navbar">
+    <a href="/About/">About</a>
+    <a href="/">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">
+          Browse 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/Plants/">Plants</a>
+        <a href="/Viruses">Viruses</a>
+        <a href="/Infects/">Infects</a>
+        <a href="/CDS/">CDS</a>
+        <a href="/motifs_domain/">Motifs & Domain</a>
+      </div>
+    </div>
+    <div class="dropdown" style="float:  right;">
+      <button class="dropbtn">
+        Search Options
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/Home/Common">Common Name</a>
+        <a href="/Home/Virus">Virus Name</a>
+        <a href="/Home/Motif">Motifs</a>
+      </div>
+   </div>
+    <div class="search-container">
+    <form action="/Scientific Name/Result/" method="GET , POST">
+      <input type=text placeholder="Search.." name="search" >
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    </div>
+</div>
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+    <h1 class="w3-margin w3-jumbo">Virus Protein Interactions in Plants Database</h1>
+    <p class="w3-xlarge">Search set to: Scientific Name of the Plant</p>
+</header>
+<div style="padding-left:16px;">
+  <div class ="w3-container w3-left">
+    <p><img src="{{url_for('static', filename= 'graph1.jpg')}}" alt="Database summary graph1" width="900" height="500" title="Database summary graph1" align="left"></p>
+    <p align ="center">The graph shows a general overview on the plants and their known infections that are present within the database</p>
+  </div>
+  <div class="w3-container w3-left">
+    <h3>What is this database?</h3>
+    <h6>This database is about finding viral proteins for viruses that specifically infect certain plant species.</h6>
+    <h6>This information can help us understand and study the viral proteins and potentially</h6>
+    <h6>develop pesticides which can protect agricultural crops from viral diseases.</h6>
+    <h6>The plant genuses were selected using annual crop production data around the world from Food and Agricultural Organization (FAO).</h6>
+    <h6>Then using Plant Viruses Online website, NCBI and CDD further data was collected for this database.</h6>
+    <h3>Learn More:</h3>
+    <h6>Further information about this database can be found in the <a href="/About/" target="_blank">about section</a> of this website.</h6>
+    <h3>Various Fuctionalities of this website:</h3>
+    <h6>The Browse section allows for the user to be able to fully view all the data that was gathered at once</h6>
+    <h6>The Search bar allows the user to be able to search for a specific plant based on scientific name of the plant by default.</h6>
+    <h6>To change the search parameters simply select the desired search parameter from the drop down menu.</h6>
+    <h6>The Common name search allows user to search for a specific plant based on common name of the plant</h6>
+    <h6>The Viral search allows the user to search for a specific viruse's data within the database</h6>
+    <h6>The motif search allows the user to search a specific morif by name to see if the motif is found withn various viruses</h6>
+  </div>
+</div>
+<footer class="w3-container w3-padding-64 w3-center"> </footer>
+</body>
+</html>
